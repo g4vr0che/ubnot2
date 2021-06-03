@@ -1,0 +1,481 @@
+ERROR 2021-05-11T11:40:47 supybot Invalid user dictionary file, resetting to empty.
+ERROR 2021-05-11T11:40:47 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/conf/users.conf'
+ERROR 2021-05-11T11:40:47 supybot Invalid channel database, resetting to empty.
+ERROR 2021-05-11T11:40:47 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/conf/channels.conf'
+ERROR 2021-05-11T11:40:47 supybot Invalid network database, resetting to empty.
+ERROR 2021-05-11T11:40:47 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/conf/networks.conf'
+WARNING 2021-05-11T11:40:47 supybot Couldn't open ignore database: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/conf/ignores.conf'
+INFO 2021-05-11T11:41:16 supybot Creating directory /home/gav/IRC/bots/ubnot2/data/GPGkeyring
+WARNING 2021-05-11T11:59:24 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-11T11:59:25 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/ChannelStats.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/ChannelStats.db'.
+WARNING 2021-05-11T11:59:25 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/Herald.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/Herald.db'.
+WARNING 2021-05-11T11:59:25 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/Later.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/Later.db'
+WARNING 2021-05-11T11:59:25 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/Seen.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/Seen.db'.
+WARNING 2021-05-11T11:59:25 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/Seen.any.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/Seen.any.db'.
+ERROR 2021-05-11T12:15:00 supybot Couldn't connect to Youtube's API.
+ERROR 2021-05-11T13:00:52 supybot Uncaught exception in Supy404.doGet:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+TypeError: doGet() got an unexpected keyword argument 'form'
+ERROR 2021-05-11T13:00:52 supybot Exception id: 0x3c8a6
+ERROR 2021-05-11T13:08:05 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1552, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1518, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 1116, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/plugins/Owner/plugin.py", line 536, in load
+    module = plugin.loadPluginModule(name, ignoreDeprecation)
+  File "/usr/lib/python3/dist-packages/supybot/plugin.py", line 102, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/__init__.py", line 44, in <module>
+    from . import plugin
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 58, in <module>
+    class Youtube(callbacks.PluginRegexp):
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 62, in Youtube
+    _api_key = _readApiKey()
+NameError: name '_readApiKey' is not defined
+ERROR 2021-05-11T13:08:05 supybot Exception id: 0x285a0
+ERROR 2021-05-11T13:08:37 supybot Spec: [<getopts for {'deprecated': ''}>, <context for something>]
+ERROR 2021-05-11T13:08:37 supybot Received args: []
+ERROR 2021-05-11T13:08:37 supybot Extra args: ['optlist', 'name']
+ERROR 2021-05-11T13:08:37 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1552, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1518, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 1116, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/plugins/Owner/plugin.py", line 536, in load
+    module = plugin.loadPluginModule(name, ignoreDeprecation)
+  File "/usr/lib/python3/dist-packages/supybot/plugin.py", line 102, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/__init__.py", line 44, in <module>
+    from . import plugin
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 62, in <module>
+    class Youtube(callbacks.PluginRegexp):
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 66, in Youtube
+    _api_key = _readApiKey()
+TypeError: _readApiKey() missing 1 required positional argument: 'self'
+ERROR 2021-05-11T13:08:37 supybot Exception id: 0x19bfd
+ERROR 2021-05-11T13:08:50 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1552, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1518, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 1116, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/plugins/Owner/plugin.py", line 536, in load
+    module = plugin.loadPluginModule(name, ignoreDeprecation)
+  File "/usr/lib/python3/dist-packages/supybot/plugin.py", line 102, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/__init__.py", line 44, in <module>
+    from . import plugin
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 62, in <module>
+    class Youtube(callbacks.PluginRegexp):
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 66, in Youtube
+    _api_key = _readApiKey()
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 57, in _readApiKey
+    with open(path) as api_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'api-key.txt'
+ERROR 2021-05-11T13:08:50 supybot Exception id: 0xa270f
+ERROR 2021-05-11T13:10:18 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1552, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1518, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 1116, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/plugins/Owner/plugin.py", line 536, in load
+    module = plugin.loadPluginModule(name, ignoreDeprecation)
+  File "/usr/lib/python3/dist-packages/supybot/plugin.py", line 102, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/__init__.py", line 44, in <module>
+    from . import plugin
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 64, in <module>
+    class Youtube(callbacks.PluginRegexp):
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 68, in Youtube
+    _api_key = _readApiKey()
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 59, in _readApiKey
+    with open(path) as api_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'api-key.txt'
+ERROR 2021-05-11T13:10:18 supybot Exception id: 0xa270f
+ERROR 2021-05-11T13:12:41 supybot Spec: [<getopts for {'deprecated': ''}>, <context for something>]
+ERROR 2021-05-11T13:12:41 supybot Received args: []
+ERROR 2021-05-11T13:12:41 supybot Extra args: ['optlist', 'name']
+ERROR 2021-05-11T13:12:41 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1552, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1518, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 1116, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/plugins/Owner/plugin.py", line 536, in load
+    module = plugin.loadPluginModule(name, ignoreDeprecation)
+  File "/usr/lib/python3/dist-packages/supybot/plugin.py", line 102, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/__init__.py", line 44, in <module>
+    from . import plugin
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 67, in <module>
+    class Youtube(callbacks.PluginRegexp):
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 71, in Youtube
+    _api_key = _readApiKey()
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 61, in _readApiKey
+    log.info(dir_path)
+  File "/usr/lib/python3.6/logging/__init__.py", line 1308, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 88, in _log
+    msg = format(msg, *args)
+  File "/usr/lib/python3/dist-packages/supybot/utils/str.py", line 631, in format
+    return _formatRe.sub(sub, s)
+TypeError: expected string or bytes-like object
+ERROR 2021-05-11T13:12:41 supybot Exception id: 0x8ab06
+ERROR 2021-05-11T13:12:58 supybot Spec: [<getopts for {'deprecated': ''}>, <context for something>]
+ERROR 2021-05-11T13:12:58 supybot Received args: []
+ERROR 2021-05-11T13:12:58 supybot Extra args: ['optlist', 'name']
+ERROR 2021-05-11T13:12:58 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1552, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1518, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 1116, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/plugins/Owner/plugin.py", line 536, in load
+    module = plugin.loadPluginModule(name, ignoreDeprecation)
+  File "/usr/lib/python3/dist-packages/supybot/plugin.py", line 102, in loadPluginModule
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/__init__.py", line 44, in <module>
+    from . import plugin
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 67, in <module>
+    class Youtube(callbacks.PluginRegexp):
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 71, in Youtube
+    _api_key = _readApiKey()
+  File "/home/gav/IRC/bots/ubnot2/plugins/Gavyoutube/plugin.py", line 61, in _readApiKey
+    log.info(dir_path)
+  File "/usr/lib/python3.6/logging/__init__.py", line 1308, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 88, in _log
+    msg = format(msg, *args)
+  File "/usr/lib/python3/dist-packages/supybot/utils/str.py", line 631, in format
+    return _formatRe.sub(sub, s)
+TypeError: expected string or bytes-like object
+ERROR 2021-05-11T13:12:58 supybot Exception id: 0x8ab06
+ERROR 2021-05-11T13:14:49 supybot Couldn't connect to Youtube's API.
+ERROR 2021-05-11T13:18:13 supybot Uncaught exception in ['load'].
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1552, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1518, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 1116, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/plugins/Owner/plugin.py", line 550, in load
+    cb = plugin.loadPluginClass(irc, module)
+  File "/usr/lib/python3/dist-packages/supybot/plugin.py", line 183, in loadPluginClass
+    'There is already a %r plugin registered.' % plugin
+AssertionError: There is already a 'Youtube' plugin registered.
+ERROR 2021-05-11T13:18:13 supybot Exception id: 0xcfa4e
+ERROR 2021-05-11T13:18:40 supybot Couldn't connect to Youtube's API.
+ERROR 2021-05-11T13:19:57 supybot Couldn't connect to Youtube's API.
+ERROR 2021-05-11T15:09:42 supybot Uncaught exception in Encyclopedia.__call__:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/irclib.py", line 202, in __call__
+    method(irc, msg)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 546, in doPrivmsg
+    ret = self.factoid_lookup(text, channel, display_info, display_raw, msg.nick)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 761, in factoid_lookup
+    db = self.get_db(channel)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 278, in get_db
+    self.databases[channel].name = db
+AttributeError: 'sqlite3.Connection' object has no attribute 'name'
+ERROR 2021-05-11T15:09:42 supybot Exception id: 0x2cc53
+ERROR 2021-05-11T15:13:59 supybot Uncaught exception in Encyclopedia.__call__:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/irclib.py", line 202, in __call__
+    method(irc, msg)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 546, in doPrivmsg
+    ret = self.factoid_lookup(text, channel, display_info, display_raw, msg.nick)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 762, in factoid_lookup
+    factoids = self.get_factoids(text.lower(), channel, resolve = (not display_info and not display_raw), info = display_info, raw = display_raw)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 329, in get_factoids
+    factoids.global_primary    = self.get_single_factoid(channel, name, deleted=raw)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 347, in get_single_factoid
+    db = self.get_db(channel)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 273, in get_db
+    if self.databases[channel].time < time.time() - 3600 or self.databases[channel].name != db:
+AttributeError: 'sqlite3.Connection' object has no attribute 'time'
+ERROR 2021-05-11T15:13:59 supybot Exception id: 0xc1fdc
+WARNING 2021-05-11T15:24:55 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-11T15:24:55 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/Herald.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/Herald.db'.
+ERROR 2021-05-11T15:25:15 supybot Uncaught exception in Encyclopedia.__call__:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/irclib.py", line 202, in __call__
+    method(irc, msg)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 546, in doPrivmsg
+    ret = self.factoid_lookup(text, channel, display_info, display_raw, msg.nick)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 761, in factoid_lookup
+    db = self.get_db(channel)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 278, in get_db
+    self.databases[channel].name = db
+AttributeError: 'sqlite3.Connection' object has no attribute 'name'
+ERROR 2021-05-11T15:25:15 supybot Exception id: 0x158e0
+ERROR 2021-05-11T15:25:50 supybot Uncaught exception in Encyclopedia.__call__:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/irclib.py", line 202, in __call__
+    method(irc, msg)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 546, in doPrivmsg
+    ret = self.factoid_lookup(text, channel, display_info, display_raw, msg.nick)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 761, in factoid_lookup
+    db = self.get_db(channel)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 273, in get_db
+    if self.databases[channel].time < time.time() - 3600 or self.databases[channel].name != db:
+AttributeError: 'sqlite3.Connection' object has no attribute 'time'
+ERROR 2021-05-11T15:25:50 supybot Exception id: 0x158e0
+ERROR 2021-05-11T15:31:02 supybot Uncaught exception in Encyclopedia.__call__:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/irclib.py", line 202, in __call__
+    method(irc, msg)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 546, in doPrivmsg
+    ret = self.factoid_lookup(text, channel, display_info, display_raw, msg.nick)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 761, in factoid_lookup
+    db = self.get_db(channel)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 278, in get_db
+    self.databases[channel].name = db
+AttributeError: 'sqlite3.Connection' object has no attribute 'name'
+ERROR 2021-05-11T15:31:02 supybot Exception id: 0x158e0
+ERROR 2021-05-11T15:31:23 supybot Uncaught exception in Encyclopedia.__call__:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/irclib.py", line 202, in __call__
+    method(irc, msg)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 546, in doPrivmsg
+    ret = self.factoid_lookup(text, channel, display_info, display_raw, msg.nick)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 761, in factoid_lookup
+    db = self.get_db(channel)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 272, in get_db
+    if channel in self.databases and self.databases[channel].time and self.databases[channel].name:
+AttributeError: 'sqlite3.Connection' object has no attribute 'time'
+ERROR 2021-05-11T15:31:23 supybot Exception id: 0x158e0
+ERROR 2021-05-11T15:33:41 supybot Uncaught exception in Encyclopedia.__call__:
+Traceback (most recent call last):
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 279, in get_db
+    self.databases[channel].name = db
+AttributeError: 'sqlite3.Connection' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/irclib.py", line 202, in __call__
+    method(irc, msg)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 556, in doPrivmsg
+    ret = self.factoid_lookup(text, channel, display_info, display_raw, msg.nick)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 771, in factoid_lookup
+    db = self.get_db(channel)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 283, in get_db
+    self.databases[channel].name = db
+AttributeError: 'sqlite3.Connection' object has no attribute 'name'
+ERROR 2021-05-11T15:33:41 supybot Exception id: 0x158e0
+ERROR 2021-05-11T15:33:47 supybot Uncaught exception in Encyclopedia.__call__:
+Traceback (most recent call last):
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 274, in get_db
+    if self.databases[channel].time < time.time() - 3600 or self.databases[channel].name != db:
+AttributeError: 'sqlite3.Connection' object has no attribute 'time'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/irclib.py", line 202, in __call__
+    method(irc, msg)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 556, in doPrivmsg
+    ret = self.factoid_lookup(text, channel, display_info, display_raw, msg.nick)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 771, in factoid_lookup
+    db = self.get_db(channel)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Encyclopedia/plugin.py", line 283, in get_db
+    self.databases[channel].name = db
+AttributeError: 'sqlite3.Connection' object has no attribute 'name'
+ERROR 2021-05-11T15:33:47 supybot Exception id: 0x158e0
+WARNING 2021-05-11T16:11:24 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-11T16:11:24 supybot Failed to load Encyclopedia: import error (/usr/lib/python3/dist-packages/_sqlite.so: undefined symbol: PyExc_StandardError).
+WARNING 2021-05-11T16:11:24 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/Herald.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/Herald.db'.
+ERROR 2021-05-11T16:15:09 supybot Uncaught exception in ['list'].
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1552, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/utils/python.py", line 90, in g
+    f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/callbacks.py", line 1518, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 1116, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/plugins/Misc/plugin.py", line 240, in list
+    commands = cb.listCommands()
+  File "/home/gav/IRC/bots/ubnot2/plugins/Mess/plugin.py", line 119, in listCommands
+    subprocess.remove('messcb')
+AttributeError: module 'subprocess' has no attribute 'remove'
+ERROR 2021-05-11T16:15:09 supybot Exception id: 0x77eae
+WARNING 2021-05-11T17:12:20 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-11T17:12:20 supybot Failed to load Encyclopedia: import error (/usr/lib/python3/dist-packages/_sqlite.so: undefined symbol: PyExc_StandardError).
+WARNING 2021-05-11T17:12:20 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/Herald.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/Herald.db'.
+ERROR 2021-05-11T17:18:39 supybot Mess: Uncaught exception in ['futurama'].
+Traceback (most recent call last):
+  File "/home/gav/IRC/bots/ubnot2/plugins/Mess/plugin.py", line 123, in _callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 1116, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Mess/plugin.py", line 78, in newfunc
+    func(*args, **kwargs)
+  File "/home/gav/IRC/bots/ubnot2/plugins/Mess/plugin.py", line 211, in futurama
+    h = [x for x in u.headers.headers if x.startswith('X') and not x.startswith('X-Powered-By')][0]
+AttributeError: 'HTTPMessage' object has no attribute 'headers'
+ERROR 2021-05-11T17:18:39 supybot Exception id: 0xd9f7e
+WARNING 2021-05-11T17:46:15 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-11T17:46:15 supybot Failed to load Encyclopedia: import error (/usr/lib/python3/dist-packages/_sqlite.so: undefined symbol: PyExc_StandardError).
+WARNING 2021-05-11T17:46:15 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/Herald.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/Herald.db'.
+ERROR 2021-05-11T17:48:10 supybot Unhandled error message from server: IrcMsg(server_tags={}, prefix="wilhelm.freenode.net", command="473", args=('ubnot2', '##cloud-city', 'Cannot join channel (+i) - you must be invited'))
+WARNING 2021-05-11T17:48:10 supybot Got unexpected notice from ChanServ on freenode: IrcMsg(server_tags={}, prefix="ChanServ!ChanServ@services.", command="NOTICE", args=('ubnot2', 'You are not authorized to perform this operation.')).
+WARNING 2021-05-11T17:48:55 supybot Invited to ##cloud-city by Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius, but supybot.alwaysJoinOnInvite was False and the user lacked the "admin" capability.
+WARNING 2021-05-11T18:03:05 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-11T18:03:05 supybot Failed to load Encyclopedia: import error (/usr/lib/python3/dist-packages/_sqlite.so: undefined symbol: PyExc_StandardError).
+WARNING 2021-05-11T18:03:05 supybot Couldn't open /home/gav/IRC/bots/ubnot2/data/Herald.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2/data/Herald.db'.
+ERROR 2021-05-11T18:03:13 supybot Unhandled error message from server: IrcMsg(server_tags={}, prefix="wilhelm.freenode.net", command="473", args=('ubnot2', '##cloud-city', 'Cannot join channel (+i) - you must be invited'))
+WARNING 2021-05-11T18:03:14 supybot Got unexpected notice from ChanServ on freenode: IrcMsg(server_tags={}, prefix="ChanServ!ChanServ@services.", command="NOTICE", args=('ubnot2', 'You are not authorized to perform this operation.')).
+ERROR 2021-05-11T18:03:41 supybot Unhandled error message from server: IrcMsg(server_tags={}, prefix="wilhelm.freenode.net", command="473", args=('ubnot2', '##cloud-city', 'Cannot join channel (+i) - you must be invited'))
+WARNING 2021-05-11T18:03:42 supybot Got unexpected notice from ChanServ on freenode: IrcMsg(server_tags={}, prefix="ChanServ!ChanServ@services.", command="NOTICE", args=('ubnot2', 'You are not authorized to perform this operation.')).
+ERROR 2021-05-11T18:09:05 supybot Unhandled error message from server: IrcMsg(server_tags={}, prefix="wilhelm.freenode.net", command="473", args=('ubnot2', '##cloud-city', 'Cannot join channel (+i) - you must be invited'))
+WARNING 2021-05-11T18:09:05 supybot Got unexpected notice from ChanServ on freenode: IrcMsg(server_tags={}, prefix="ChanServ!ChanServ@services.", command="NOTICE", args=('ubnot2', 'You are not authorized to perform this operation.')).
+ERROR 2021-05-11T18:09:35 supybot Unhandled error message from server: IrcMsg(server_tags={}, prefix="wilhelm.freenode.net", command="473", args=('ubnot2', '##cloud-city', 'Cannot join channel (+i) - you must be invited'))
+WARNING 2021-05-11T18:09:36 supybot Got unexpected notice from ChanServ on freenode: IrcMsg(server_tags={}, prefix="ChanServ!ChanServ@services.", command="NOTICE", args=('ubnot2', 'You are not authorized to perform this operation.')).
+ERROR 2021-05-11T18:11:48 supybot Unhandled error message from server: IrcMsg(server_tags={}, prefix="wilhelm.freenode.net", command="473", args=('ubnot2', '##cloud-city', 'Cannot join channel (+i) - you must be invited'))
+WARNING 2021-05-11T18:11:49 supybot Got unexpected notice from ChanServ on freenode: IrcMsg(server_tags={}, prefix="ChanServ!ChanServ@services.", command="NOTICE", args=('ubnot2', 'You are not authorized to perform this operation.')).
+ERROR 2021-05-11T19:02:48 supybot Failed to start a subprocess because of the following error: [Errno 5] Input/output error This might be caused by the way Limnoria is demonized / run in the background. Instead, try running it as a service <https://docs.limnoria.net/use/supybot-botchk.html>, use the --daemon option, or run it in screen/tmux.
+WARNING 2021-05-11T19:02:48 supybot SedRegex replacer error: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/plugins/SedRegex/plugin.py", line 186, in replacer
+    timeout=regex_timeout, pn=self.name(), cn='replacer')
+  File "/usr/lib/python3/dist-packages/supybot/commands.py", line 133, in process
+    p.start()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/popen_fork.py", line 17, in __init__
+    util._flush_std_streams()
+  File "/usr/lib/python3.6/multiprocessing/util.py", line 397, in _flush_std_streams
+    sys.stdout.flush()
+OSError: [Errno 5] Input/output error
+WARNING 2021-05-12T19:28:53 supybot The Google plugin search is deprecated since Google closed their public API and will be removed in a future release. Please consider switching to an other plugin for your searches, like <https://github.com/Hoaas/Supybot-plugins/tree/master/DuckDuckGo>, <https://github.com/joulez/GoogleCSE>, or <https://github.com/GLolol/SupyPlugins/tree/master/DDG>.
+WARNING 2021-05-19T15:34:36 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-19T15:34:36 supybot Failed to load Encyclopedia: import error (/usr/lib/python3/dist-packages/_sqlite.so: undefined symbol: PyExc_StandardError).
+ERROR 2021-05-19T15:34:36 supybot Failed to start HTTP server with protocol 4 at address: ('0.0.0.0', 8080)
+ERROR 2021-05-19T15:34:36 supybot This means the port (and address) is already in use by an other process. Either find the process using the port and stop it, or change the port configured in supybot.servers.http.port.
+ERROR 2021-05-19T15:34:36 supybot Failed to start HTTP server with protocol 6 at address: ('::0', 8080)
+ERROR 2021-05-19T15:34:36 supybot This means the port (and address) is already in use by an other process. Either find the process using the port and stop it, or change the port configured in supybot.servers.http.port.
+WARNING 2021-05-19T15:34:36 supybot Couldn't open /home/gav/IRC/bots/ubnot2-l/data/Herald.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2-l/data/Herald.db'.
+WARNING 2021-05-19T17:45:06 supybot Ping sent at 2021-05-19T17:43:06 not replied to.
+WARNING 2021-05-19T17:45:06 supybot Error message from libera: Ping sent at 2021-05-19T17:43:06 not replied to.
+WARNING 2021-05-19T17:45:06 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-20T00:10:51 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:11:01 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:11:12 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:11:22 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:11:32 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:11:42 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:11:52 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:12:02 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:12:12 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:12:22 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:12:33 supybot Error connecting to irc.libera.chat:6697: ConnectionRefusedError: [Errno 111] Connection refused
+WARNING 2021-05-20T00:12:43 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-22T03:08:06 supybot Ping sent at 2021-05-22T03:06:05 not replied to.
+WARNING 2021-05-22T03:08:06 supybot Error message from libera: Ping sent at 2021-05-22T03:06:05 not replied to.
+WARNING 2021-05-22T03:08:07 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-22T10:33:02 supybot Ping sent at 2021-05-22T10:31:02 not replied to.
+WARNING 2021-05-22T10:33:02 supybot Error message from libera: Ping sent at 2021-05-22T10:31:02 not replied to.
+WARNING 2021-05-22T10:33:12 supybot Error connecting to irc.libera.chat:6697: timeout: timed out
+WARNING 2021-05-22T10:33:22 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-22T10:47:26 supybot Ping sent at 2021-05-22T10:45:25 not replied to.
+WARNING 2021-05-22T10:47:26 supybot Error message from libera: Ping sent at 2021-05-22T10:45:25 not replied to.
+WARNING 2021-05-22T10:47:26 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-22T11:53:37 supybot Ping sent at 2021-05-22T11:51:37 not replied to.
+WARNING 2021-05-22T11:53:37 supybot Error message from libera: Ping sent at 2021-05-22T11:51:37 not replied to.
+WARNING 2021-05-22T11:53:37 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-23T15:49:50 supybot The Google plugin search is deprecated since Google closed their public API and will be removed in a future release. Please consider switching to an other plugin for your searches, like <https://github.com/Hoaas/Supybot-plugins/tree/master/DuckDuckGo>, <https://github.com/joulez/GoogleCSE>, or <https://github.com/GLolol/SupyPlugins/tree/master/DDG>.
+WARNING 2021-05-23T15:50:33 supybot The Google plugin search is deprecated since Google closed their public API and will be removed in a future release. Please consider switching to an other plugin for your searches, like <https://github.com/Hoaas/Supybot-plugins/tree/master/DuckDuckGo>, <https://github.com/joulez/GoogleCSE>, or <https://github.com/GLolol/SupyPlugins/tree/master/DDG>.
+WARNING 2021-05-23T15:50:47 supybot The Google plugin search is deprecated since Google closed their public API and will be removed in a future release. Please consider switching to an other plugin for your searches, like <https://github.com/Hoaas/Supybot-plugins/tree/master/DuckDuckGo>, <https://github.com/joulez/GoogleCSE>, or <https://github.com/GLolol/SupyPlugins/tree/master/DDG>.
+WARNING 2021-05-24T13:53:06 supybot Ping sent at 2021-05-24T13:51:05 not replied to.
+WARNING 2021-05-24T13:53:06 supybot Error message from libera: Ping sent at 2021-05-24T13:51:05 not replied to.
+WARNING 2021-05-24T13:53:06 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-24T13:53:16 supybot Error connecting to irc.libera.chat:6697: timeout: _ssl.c:835: The handshake operation timed out
+WARNING 2021-05-24T13:53:26 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-26T13:59:28 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2021-05-26T13:59:28 supybot Failed to load Encyclopedia: import error (/usr/lib/python3/dist-packages/_sqlite.so: undefined symbol: PyExc_StandardError).
+WARNING 2021-05-26T13:59:28 supybot Couldn't open /home/gav/IRC/bots/ubnot2-l/data/Herald.db: [Errno 2] No such file or directory: '/home/gav/IRC/bots/ubnot2-l/data/Herald.db'.
+ERROR 2021-05-26T14:40:13 supybot Uncaught exception in Supy404.doGet:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+TypeError: doGet() got an unexpected keyword argument 'form'
+ERROR 2021-05-26T14:40:13 supybot Exception id: 0x40d90
+ERROR 2021-05-26T16:46:56 supybot Uncaught exception in Supy404.doGet:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+TypeError: doGet() got an unexpected keyword argument 'form'
+ERROR 2021-05-26T16:46:56 supybot Exception id: 0x40d90
+ERROR 2021-05-26T21:58:02 supybot Uncaught exception in Supy404.doGet:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/supybot/log.py", line 368, in m
+    return f(self, *args, **kwargs)
+TypeError: doGet() got an unexpected keyword argument 'form'
+ERROR 2021-05-26T21:58:02 supybot Exception id: 0x40d90

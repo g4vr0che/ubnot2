@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-10 12:43+CEST\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: config.py:42
+msgid ""
+"This plugin offers a snarfer that will try to fetch info about\n"
+"             Youtube videos that it sees in the channel. Would you like this\n"
+"             snarfer to be enabled?"
+msgstr ""
+
+#: config.py:47
+msgid "Do you want to show the video uploader username?"
+msgstr ""
+
+#: config.py:51
+msgid "Do you want to show the video upload date?"
+msgstr ""
+
+#: config.py:55
+msgid ""
+"Do you want to use the old rating system (x of 5.0) instead\n"
+"    of the like/dislike system?"
+msgstr ""
+
+#: config.py:63
+msgid "Enable Youtube snarfer."
+msgstr ""
+
+#: config.py:66
+msgid "Show video uploader."
+msgstr ""
+
+#: config.py:69
+msgid "Show video upload date."
+msgstr ""
+
+#: config.py:72
+msgid ""
+"Use old rating system (x of 5.0) instead of\n"
+"    the like/dislike system."
+msgstr ""
+
+#: plugin.py:58
+#, docstring
+msgid "Listens for Youtube URLs and retrieves video info."
+msgstr ""
+
+#: plugin.py:114
+msgid " - %s views"
+msgstr ""
+
+#: plugin.py:118
+msgid " - %s likes / %s dislikes"
+msgstr ""
+
+#: plugin.py:123
+msgid " - %.1f/5.0 (%s ratings)"
+msgstr ""
+
+#: plugin.py:128
+msgid " - user: %s"
+msgstr ""
+
+#: plugin.py:132
+msgid " - date: %s"
+msgstr ""
+

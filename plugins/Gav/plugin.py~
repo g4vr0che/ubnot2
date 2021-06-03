@@ -1,0 +1,112 @@
+###
+# Copyright (c) 2015 G4vr0che
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+#
+#   * Redistributions of source code must retain the above copyright notice,
+#     this list of conditions, and the following disclaimer.
+#   * Redistributions in binary form must reproduce the above copyright notice,
+#     this list of conditions, and the following disclaimer in the
+#     documentation and/or other materials provided with the distribution.
+#   * Neither the name of the author of this software nor the name of
+#     contributors to this software may be used to endorse or promote products
+#     derived from this software without specific prior written consent.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+# LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+# CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+# ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+# POSSIBILITY OF SUCH DAMAGE.
+###
+
+import re
+import random
+
+import supybot.utils as utils
+from supybot.commands import *
+import supybot.ircmsgs as ircmsgs
+import supybot.ircutils as ircutils
+import supybot.callbacks as callbacks
+
+
+class Gav(callbacks.Plugin):
+    def shoot(self, irc, msg, args, victim):
+        """[<victim>]
+
+        Shoots the <victim>. 
+        """
+        
+        irc.reply('shoots %s in the chest.' % victim, action=True)
+        irc.reply('*BANG* %s dies and will be sorely missed. =(' % victim)
+    shoot = wrap(shoot, [('nick')])
+    
+    def guillotine(self, irc, msg, args, victim):
+        """[<victim>]
+
+        Uses the guillotine on the <victim>!
+        """
+        
+        irc.reply('straps %s into the guillotine. After a dramatic pause, the blade is dropped.' % victim, action=True)
+        irc.reply('*SWICK* %s dies and will be sorely missed. =(' % victim)
+    guillotine = wrap(guillotine)
+    
+    def stab(self, irc, msg, args, victim):
+        """[<victim>]
+
+        Runs <victim> through with a saber!
+        """
+        
+        irc.reply('runs up to %s and thrust forward with a saber!' % victim, action=True)
+        irc.reply("The blade slips cleanly through %s's back." %victim)
+        irc.reply('*SWICK* %s dies and will be sorely missed. =(' % victim)
+    stab = wrap(stab)
+    
+    def hug(self, irc, msg, args, nick):
+        """[<victim>]
+
+        Hugs the <victim>. Wait, why are they a victim again?
+        """
+        
+        irc.reply('hugs %s lovingly' % nick, action=True)
+    hug = wrap(hug, [('nick')])
+    
+    def slap(self, irc, msg, args, victim):
+        """[<victim>]
+
+        Slaps the <victim>.
+        """
+        
+        irc.reply('slaps %s' % victim, action=True)
+    slap = wrap(slap)
+    
+    def trout(self, irc, msg, args, victim):
+        """[<victim>]
+
+        Slaps the <victim> around a bit with a large trout.
+        """
+        
+        irc.reply('slaps %s around a bit with a large trout.' % victim, action=True)
+    trout = wrap(trout)
+    
+    def crossbow(self, irc, msg, args, victim):
+        """[<victim>]
+
+        Shoots the <victim> with a crossbow!
+        """
+        
+        irc.reply('While skiing in the Swiss Alps, %s is mysteriously shot with a crossbow.' % victim)
+        irc.reply('*FWUMP* %s dies and will be sorely missed. =(' % victim)
+    crossbow = wrap(crossbow)
+
+Class = Gav
+
+
+# vim:set shiftwidth=4 softtabstop=4 expandtab textwidth=79:

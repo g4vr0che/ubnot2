@@ -1,0 +1,1775 @@
+2021-05-11T17:48:55  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> invited ubnot2 to ##cloud-city
+2021-05-11T17:49:11  *** ubnot2 <ubnot2!~limnoria@2607:fc88:100:2c::b17> has joined ##cloud-city
+2021-05-11T17:49:19  <jeans> There it is
+2021-05-11T17:49:24  <jeans> !ubnot2
+2021-05-11T17:49:25  <ubnot2> Hi! I'm the Club's new favourite infobot.
+2021-05-11T17:50:11  <jeans> @8ball is Time-Warp a ferret?
+2021-05-11T17:50:11  <ubnot2> jeans: Ask again later
+2021-05-11T17:50:14  <jeans> @8ball is Time-Warp a ferret?
+2021-05-11T17:50:14  <ubnot2> jeans: Are you kidding me?
+2021-05-11T17:50:18  <jeans> >_>
+2021-05-11T17:51:03  <Anastasius> /mode +I ##cloud-city
+2021-05-11T17:51:21  <jeans> <_<
+2021-05-11T17:51:38  <jeans> @8ball Is Anastasius good at using /mode?
+2021-05-11T17:51:38  <ubnot2> jeans: Definitely not
+2021-05-11T17:51:40  <jeans> XD
+2021-05-11T17:51:54  <Anastasius> Oh damn.
+2021-05-11T17:53:33  *** Anastasius sets mode: -o Anastasius
+2021-05-11T17:53:48  <jeans> ubnot2: indeed is <reply> https://media.tenor.com/images/3f0a031b0a6fc877baabe5ce700ff083/tenor.gif
+2021-05-11T17:53:49  <ubnot2> jeans: The operation succeeded.
+2021-05-11T17:53:55  <jeans> !indeed
+2021-05-11T17:53:56  <ubnot2> https://media.tenor.com/images/3f0a031b0a6fc877baabe5ce700ff083/tenor.gif
+2021-05-11T17:53:59  <jeans> ^_^
+2021-05-11T17:55:50  <jeans> Anastasius: If you want to register an account with the bot, you should be good
+2021-05-11T17:55:56  <jeans> @help register
+2021-05-11T17:55:56  <ubnot2> jeans: (register <name> <password>) -- Registers <name> with the given password <password> and the current hostmask of the person registering. You shouldn't register twice; if you're not recognized as a user but you've already registered, use the hostmask add command to add another hostmask to your already-registered user, or use the identify command to identify just for a session. This command (and all other commands  (1 more message)
+2021-05-11T17:55:58  <jeans> @more
+2021-05-11T17:55:58  <ubnot2> jeans: that include a password) must be sent to the bot privately, not in a channel. 
+2021-05-11T17:58:49  <jeans> And the best part... https://www.youtube.com/watch?v=_NzLs-xSss0
+2021-05-11T17:58:50  <ubnot2> YouTube: Won't Get Fooled Again - length: 08m32s - 5,109,551 views - 76288 likes / 8944 dislikes - by The Who - Topic on 2018-09-15
+2021-05-11T17:58:54  <jeans> ^^^^^^
+2021-05-11T17:59:53  <jeans> Anastasius: I had to make a Youtube API key for that xþ
+2021-05-11T18:18:06  *** ubnot2 <ubnot2!~limnoria@2607:fc88:100:2c::b17> has joined ##cloud-city
+2021-05-11T18:18:07  <milehigh-> Protein shake consumed, commence shut down sequence maybe if brain will allow
+2021-05-11T18:18:16  <jeans> !bed
+2021-05-11T18:18:17  <ubnot2> It's bed, Jim
+2021-05-11T18:18:18  <Anastasius> Hmm, why aren't these things sticking on the list?
+2021-05-11T18:18:41  *** NoLogica <NoLogica!~NoLogica@unaffiliated/nologica> has joined ##cloud-city
+2021-05-11T18:18:58  <NoCode> !weather hamilton
+2021-05-11T18:18:59  <ubnot2> NoCode: Error: "weather" is not a valid command.
+2021-05-11T18:18:59  <NoLogica> NoCode: Hamilton, Ontario, Canada :: overcast clouds 45.9F/7.7C (Humidity: 57%). Currently Feels like: 41.3F/5.2C :: Wind: 9.22mph/14.8kph WNW Gusts: N/A :: Today: scattered clouds. High 49.7F/9.8C. Low 35.4F/1.9C. :: Tomorrow: clear sky. High 59.5F/15.3C. Low 38.9F/3.8C. <https://openweathermap.org/weathermap?lat=43.2560802&lon=-79.8728583&zoom=12>
+2021-05-11T18:19:01  <ubnot2> Title: Interactive weather maps - OpenWeatherMap (at openweathermap.org)
+2021-05-11T18:19:09  <jeans> uh-oh
+2021-05-11T18:20:34  <Anastasius> NoCode: I think that should have worked, can you make it leave and rejoin for a test?
+2021-05-11T18:20:44  <NoCode> NoLogica, cycle
+2021-05-11T18:20:44  *** NoLogica <NoLogica!~NoLogica@unaffiliated/nologica> has left ##cloud-city ("2019.02.23")
+2021-05-11T18:20:45  *** NoLogica <NoLogica!~NoLogica@unaffiliated/nologica> has joined ##cloud-city
+2021-05-11T18:20:51  <Anastasius> Okay good.
+2021-05-11T18:22:57  *** Anastasius sets mode: +o jeans
+2021-05-11T18:23:08  <Anastasius> jeans: Here, you do it.
+2021-05-11T18:23:13  *** jeans sets mode: -o jeans
+2021-05-11T18:23:19  <jeans> It doesn't work that way, lol
+2021-05-11T18:23:33  <NoCode> what
+2021-05-11T18:23:59  <jeans> I can't change the flags just by being opped. I would need to be added to the access list (which, nopls)
+2021-05-11T18:24:29  <Anastasius> Eh, fuck it.
+2021-05-11T18:24:35  * NoCode just put like 10 bags of leaves and acorns out.
+2021-05-11T18:24:36  *** Anastasius sets mode: -o Anastasius
+2021-05-11T18:24:54  <jeans> @8ball is it working now?
+2021-05-11T18:24:54  <ubnot2> jeans: The stars say so
+2021-05-11T18:25:37  <NoCode> !woohah
+2021-05-11T18:25:37  <NoLogica> https://www.youtube.com/watch?v=_uIxSwvmWVM
+2021-05-11T18:25:37  <ubnot2> NoCode: Error: "woohah" is not a valid command.
+2021-05-11T18:25:38  <ubnot2> YouTube: TNG edit 23 - Shame on you mr Clemens - length: 01m28s - 13,887 views - 251 likes / 7 dislikes - by byroTube on 2017-05-12
+2021-05-11T18:26:06  <Anastasius> :D
+2021-05-11T18:26:14  <Anastasius> Good old Samuel Clemons.
+2021-05-11T18:26:17  <jeans> One of us might have to change their prefix >_>
+2021-05-11T18:26:21  <Anastasius> The TNG version, anyway.
+2021-05-11T18:26:25  <NoCode> It seems like you got the bot covered.
+2021-05-11T18:26:37  <NoCode> NoLogica, part ##cloud-city 
+2021-05-11T18:26:37  *** NoLogica <NoLogica!~NoLogica@unaffiliated/nologica> has left ##cloud-city ("2019.02.23")
+2021-05-11T18:27:05  <milehigh->  Ohh i thought ubnot2 was still ubnotu 
+2021-05-11T18:27:21  <jeans> milehigh-: No, it's a new clone
+2021-05-11T18:27:22  * milehigh- misread
+2021-05-11T18:27:34  <NoCode> I'm not changing any of prefixes. :)
+2021-05-11T18:27:38  <NoCode> my*
+2021-05-11T18:27:39  <jeans> Which is why is doesn't have any of the factoids (other than the ones that I've added
+2021-05-11T18:27:40  <jeans> )
+2021-05-11T18:27:46  <milehigh-> Ah ok 
+2021-05-11T18:27:56  <jeans> !ubnotu
+2021-05-11T18:27:57  <ubnot2> RIP ubnotu. =(
+2021-05-11T18:28:52  <jeans> milehigh-: The code that ran ubnotu was really old and unmaintained, and I don't know if it would have been possible to get it going again. At least not without major rewrites
+2021-05-11T18:29:17  <NoCode> coppi said he was getting it together.
+2021-05-11T18:29:51  <jeans> NoCode: The factoid plugin needed python2 and sqlite2, neither of which really exist anymore. 
+2021-05-11T18:30:15  <NoCode> ah
+2021-05-11T18:30:25  <NoCode> still got factoids on my bot
+2021-05-11T18:30:29  <NoCode> some
+2021-05-11T18:30:36  <NoCode> not a lot
+2021-05-11T18:30:37  <jeans> Porting it to Python3 and would require more or less rewriting from scratch (trust me; I was working on this all last night and today)
+2021-05-11T18:30:45  <NoCode> Anastasius, and milehigh- are still authed to it.
+2021-05-11T18:30:46  <jeans> Oh, I have factoids too
+2021-05-11T18:31:04  <jeans> I can get anyone authed for it, but you'll have to make your own account
+2021-05-11T18:31:19  <jeans> I don't want to be responsible for your password
+2021-05-11T18:31:37  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 252 seconds)
+2021-05-11T18:31:45  <NoCode> Meh
+2021-05-11T18:32:05  <NoCode> I'm sad, guess I'll go do something.
+2021-05-11T18:32:12  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-11T18:32:13  <Anastasius> NoCode: You should bring it back, at least until ubnotu gets back on his feet (if ever).
+2021-05-11T18:32:18  <Anastasius> Crapl
+2021-05-11T18:32:22  <jeans> =(
+2021-05-11T18:32:24  <Anastasius> Crap.
+2021-05-11T18:44:03  <jeans> milehigh-: Where did you move?
+2021-05-11T18:46:16  <milehigh-> North
+2021-05-11T18:46:31  <jeans> Ah
+2021-05-11T18:46:32  <milehigh-> Quite a bit
+2021-05-11T18:47:14  <Anastasius> Clothes. In the dryer.
+2021-05-11T18:53:07  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-11T18:54:22  <jeans> !ygdr
+2021-05-11T18:54:23  <ubnot2> http://www.reactiongifs.com/r/2013/03/right.gif
+2021-05-11T19:24:47  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-11T19:27:10  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 252 seconds)
+2021-05-11T20:03:24  *** Time-Warp is now known as launchd
+2021-05-11T20:03:35  <jeans> launchd: wat
+2021-05-11T20:03:54  *** launchd is now known as Guest89495
+2021-05-11T20:03:54  *** Guest89495 is now known as Time-Warp
+2021-05-11T20:04:02  <jeans> Time-Warp: lol
+2021-05-11T20:04:14  <Time-Warp> jeans: LOL
+2021-05-11T20:04:23  <jeans> @pony Time-Warp 
+2021-05-11T20:04:23  <ubnot2> jeans: No Time-Warp can't have a pony, jeans!
+2021-05-11T20:06:15  <Time-Warp> :o
+2021-05-11T20:06:22  <Time-Warp> full panic mode
+2021-05-11T20:06:24  <jeans> @hoers Time-Warp 
+2021-05-11T20:06:24  <ubnot2> jeans: No they can't... OK fine, Time-Warp can have a hoers jeans!
+2021-05-11T20:08:11  <jeans> ubnot2: hoers is <reply> https://cdn1.ntv.com.tr/gorsel/8isHwrhkVUqRo1T9Cf91WA.jpg !!!
+2021-05-11T20:08:11  <ubnot2> jeans: No they can't... OK fine, is <reply> https://cdn1.ntv.com.tr/gorsel/8isHwrhkVUqRo1T9Cf91WA.jpg !!! can have a hoers jeans!
+2021-05-11T20:08:18  <jeans> >_>
+2021-05-11T20:11:18  <jeans> !hoers
+2021-05-11T20:11:19  <ubnot2> https://cdn1.ntv.com.tr/gorsel/8isHwrhkVUqRo1T9Cf91WA.jpg !!!
+2021-05-11T20:18:07  <Time-Warp> jeans: ahahahaha
+2021-05-11T20:28:31  <Time-Warp> Anastasius: 
+2021-05-11T20:32:34  <jeans> Lando-HoloNet: guess what I made?
+2021-05-11T21:03:00  <milehigh-> Uhaul is finally empty!!!!
+2021-05-11T21:20:13  <jeans> \o/
+2021-05-11T21:20:36  <jeans> milehigh-: nice
+2021-05-11T21:27:07  <hoglahoo> well done you!
+2021-05-11T21:27:13  <hoglahoo> and them!
+2021-05-11T21:27:32  <jeans> Anastasius: I generated 351 messages in PM working on that bot
+2021-05-11T21:30:49  <Spec> amazing
+2021-05-11T21:40:26  <milehigh-> Rookie numbers.
+2021-05-11T21:54:43  <jeans> Yeah, but that was just over the course of today
+2021-05-11T22:01:30  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-11T22:01:49  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Read error: Connection reset by peer)
+2021-05-11T22:02:51  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 268 seconds)
+2021-05-11T22:07:30  <Time-Warp> milehigh- is sus
+2021-05-11T22:08:59  <jeans> milehigh-: Spec: on the bright side... https://youtu.be/sXbzbuRgsco
+2021-05-11T22:09:00  <ubnot2> YouTube: Jeremy Clarkson's American Accent Compilation - length: 09m37s - 395,454 views - 15936 likes / 188 dislikes - by incT on 2021-04-14
+2021-05-11T22:09:08  <jeans> ☝️☝️☝️☝️☝️
+2021-05-11T22:09:43  <jeans> Time-Warp: ☝️
+2021-05-11T22:12:01  <Time-Warp> :o
+2021-05-11T22:12:13  <jeans> YouTube previews!
+2021-05-11T22:12:38  <Time-Warp> jeans: nice
+2021-05-11T22:12:54  <Time-Warp> LOL
+2021-05-11T22:13:10  <jeans> I had to make an API key and everything!
+2021-05-11T22:13:37  <jeans> We only get 10,000 YouTube previews per day tho
+2021-05-11T22:15:22  <MurkyBanana> only 10,000?! lame!
+2021-05-11T22:15:58  <jeans> I don't wanna pay for it!
+2021-05-11T22:16:12  <jeans> https://www.github.com/g4vr0che/limnoria-youtube/tree/main/Youtube%2Fplugin.py
+2021-05-11T22:19:17  <MurkyBanana> but what if everyone here wants to paste 344.83 youtube links in here in a day?
+2021-05-11T22:19:48  <jeans> Well, you'll have to limit yourselves to 343 per day
+2021-05-11T22:19:57  <MurkyBanana> oh ok
+2021-05-11T22:20:27  <jeans> Realistically I think the API just starts throwing errors. I didn't put in any payment info so they can't charge me anything
+2021-05-11T22:20:56  <MurkyBanana> probably a good idea not to
+2021-05-11T22:22:01  <jeans> Yeah, knowing you guys lol
+2021-05-11T22:42:00  <jeans> MurkyBanana: TIL the starter on an Automatic 240Z is different from the one on a Manual
+2021-05-11T22:43:38  <MurkyBanana> TIL 240z
+2021-05-11T22:46:36  <jeans> Wat
+2021-05-11T22:46:49  <jeans> MurkyBanana: you know what I drive, right?
+2021-05-11T22:46:58  <MurkyBanana> it's some sort of automobile I think
+2021-05-11T22:47:02  <MurkyBanana> I do now :)
+2021-05-11T22:47:03  <jeans> Lol
+2021-05-11T22:47:18  <jeans> Well, I have a 280, but it's basically the same
+2021-05-11T22:47:31  <MurkyBanana> it's 40 more!
+2021-05-11T22:48:02  <jeans> MurkyBanana: https://i.imgur.com/bVmEwXb.jpg
+2021-05-11T22:48:20  <jeans> MurkyBanana: actually... Yes. 40 more centilitres
+2021-05-11T22:48:22  <MurkyBanana> noice
+2021-05-11T22:49:30  <jeans> The 240 has a 2.4L engine. The 280 has a 2.8L
+2021-05-11T22:49:47  <jeans> There's a few other changes too, obvs, but that's the basics
+2021-05-11T22:50:26  <MurkyBanana> what's the Z?
+2021-05-11T22:50:37  <jeans> It's just the model
+2021-05-11T22:50:41  <MurkyBanana> oh ok
+2021-05-11T22:50:44  <jeans> The Nissan Z Car
+2021-05-11T22:50:51  <jeans> Currently the 350Z and 370Z
+2021-05-11T22:51:05  <jeans> Which I'm 100% positive you've seen
+2021-05-11T22:51:25  <MurkyBanana> I'm 99.9998% sure
+2021-05-11T22:51:34  <jeans> One of these https://www.classicandsportscar.com/sites/default/files/styles/article/public/2019-03/classic_and_sports_car_buyers_guide_nissan_350Z_main.png?itok=ET8ljsw4
+2021-05-11T22:51:43  <jeans> I have that car's grampa
+2021-05-11T22:51:50  <MurkyBanana> I have probably seen that
+2021-05-11T22:51:59  <jeans> 100%
+2021-05-11T22:52:13  <MurkyBanana> 99.9998%
+2021-05-11T22:53:00  <jeans> I'll take 5-9s
+2021-05-11T22:54:42  <jeans> That's a standard SLA
+2021-05-11T22:55:04  <jeans> MurkyBanana: I was kinda proud of the way I'm doing the API key in that repo
+2021-05-11T22:55:20  <MurkyBanana> I'm proud, too!
+2021-05-11T23:03:35  <jeans> Read it from a text file, so it can be hit ignored and not accidentally committed
+2021-05-11T23:03:46  <jeans> But it's also easy to add/change
+2021-05-11T23:12:07  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Ping timeout: 252 seconds)
+2021-05-11T23:16:32  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-11T23:24:59  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-11T23:30:11  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Ping timeout: 240 seconds)
+2021-05-11T23:50:27  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-12T00:05:11  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 240 seconds)
+2021-05-12T01:01:26  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-12T03:05:26  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 260 seconds)
+2021-05-12T04:01:24  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-12T05:05:03  *** Jeruvy <Jeruvy!~jeruvy@unaffiliated/jeruvy> has quit IRC (Remote host closed the connection)
+2021-05-12T06:05:10  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 252 seconds)
+2021-05-12T06:13:02  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-12T07:01:21  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-12T10:16:33  *** gingermouse <gingermouse!~g4vr0che@unaffiliated/g4vr0che> has joined ##cloud-city
+2021-05-12T10:16:39  *** jeans <jeans!~g4vr0che@unaffiliated/g4vr0che> has quit IRC (Read error: Connection reset by peer)
+2021-05-12T10:16:49  *** gingermouse is now known as jeans
+2021-05-12T12:01:56  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-12T12:22:17  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 246 seconds)
+2021-05-12T12:56:08  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 265 seconds)
+2021-05-12T13:10:07  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-12T13:18:18  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-12T13:59:35  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Quit: KVIrc 5.0.0 Aria http://www.kvirc.net/)
+2021-05-12T14:02:14  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-12T15:01:45  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Quit: YOU! WHAT PLANET IS THIS?!)
+2021-05-12T15:03:21  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-12T15:15:40  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-12T15:36:16  *** ChanServ sets mode: +o Anastasius
+2021-05-12T15:40:12  *** Anastasius sets mode: -o Anastasius
+2021-05-12T16:05:48  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Read error: Connection reset by peer)
+2021-05-12T16:06:01  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-12T16:50:00  <ectospasm> 'sup y'all?
+2021-05-12T16:50:28  <Anastasius> Laundrying, having a cup of tea, and hungry. You?
+2021-05-12T16:51:05  <ectospasm> Waiting for April to get off work so we can make some frozen pizzas.  It's not delivery, it's DiGiorno!
+2021-05-12T16:51:19  <Anastasius> :D
+2021-05-12T16:51:35  <ectospasm> These pizza's crusts are supposed to be "croissant" style.  They look delicious!
+2021-05-12T16:51:46  <Lando-SpaceIzzle> ectospasm, April was last month
+2021-05-12T16:51:53  <Lando-SpaceIzzle> :O
+2021-05-12T16:51:58  <Anastasius> Oh I've seen those but haven't tried yet. Lemme know the verdict.
+2021-05-12T16:52:05  <ectospasm> Lando-SpaceIzzle: yes, and she has to wait 11 more months until it's her month again.
+2021-05-12T16:52:12  <ectospasm> Anastasius: I will!
+2021-05-12T16:52:23  <Lando-SpaceIzzle> 11 months is a long time to wait for pizza
+2021-05-12T16:52:33  *** Lando-SpaceIzzle <Lando-SpaceIzzle!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Quit: They told me they fixed it. I trusted them to fix it. It's not my fault!)
+2021-05-12T16:52:36  <ectospasm> We're not waiting that long for pizza.
+2021-05-12T16:52:40  <ectospasm> And I guess he left.
+2021-05-12T16:53:03  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-12T16:53:14  <Lando-SpacePimp> Sasha really needs to stop walking across my keyboard
+2021-05-12T16:53:56  <Lando-SpacePimp> STEAMED HAMS
+2021-05-12T16:54:29  <netdaemon> stop lettin' her :O
+2021-05-12T16:54:35  <netdaemon> get the spray bottle out!
+2021-05-12T16:54:53  <ectospasm> He might squirt his keyboard, though
+2021-05-12T16:55:06  <ectospasm> That sounds a lot dirtier than I anticipated.
+2021-05-12T17:02:35  <darkhal0> !milehigh
+2021-05-12T17:02:35  <hoglahoo> https://usercontent.irccloud-cdn.com/file/llbSrVdT/igYo70L.jpg
+2021-05-12T17:02:36  <ubnot2> darkhal0: Error: "milehigh" is not a valid command.
+2021-05-12T17:02:52  <darkhal0> Youre not a valid command
+2021-05-12T17:03:04  * darkhal0 hugs botlahoo
+2021-05-12T17:04:26  <ectospasm> Our cat is pretty well behaved, we don't have a spray bottle to use on him.  I don't know if we've ever done that.
+2021-05-12T17:04:35  <ectospasm> Not sure how he'd react, prolly not well.
+2021-05-12T17:05:04  <daftykins> heh yeah i've never done anything like that with Mischief, but she's a senior cat and knows what's up
+2021-05-12T17:05:32  <ectospasm> Ford isn't that destructive, so there's no need to.
+2021-05-12T17:09:13  <daftykins> only thing Mischief does badly is her leaps up to my lap, often followed with claws digging into my thighs D:
+2021-05-12T17:09:33  <daftykins> maybe one of these days i'll need to construct a little set of cat steps beside me for that, 'tis her 17th soon
+2021-05-12T17:15:21  <Lando-SpacePimp> daftykins, I started setting up cardboad boxes full of old magazines in them
+2021-05-12T17:15:26  <Lando-SpacePimp> next to my bed, etc.
+2021-05-12T17:15:38  <Lando-SpacePimp> and stopped trimming nails
+2021-05-12T17:15:58  <Lando-SpacePimp> for Bocelli when she was ancient
+2021-05-12T17:16:20  * Lando-SpacePimp sniffs.
+2021-05-12T17:16:25  <daftykins> d'aww
+2021-05-12T17:20:02  *** darkhal0 <darkhal0!sid406728@gateway/web/irccloud.com/x-jzjcdzaxqwfjigiw> has left ##cloud-city ("Cycling")
+2021-05-12T17:20:03  *** darkhal0 <darkhal0!sid406728@gateway/web/irccloud.com/x-jzjcdzaxqwfjigiw> has joined ##cloud-city
+2021-05-12T17:20:06  <darkhal0> Yay
+2021-05-12T17:20:14  <Anastasius> Fixed? Yes.
+2021-05-12T17:20:36  <darkhal0> https://youtu.be/DAM7OeFpgoE
+2021-05-12T17:20:37  <ubnot2> YouTube: Happy Cycling - length: 07m53s - 60,677 views - 1065 likes / 60 dislikes - by Boards Of Canada - Topic on 2020-11-25
+2021-05-12T17:23:42  <ectospasm> DiGiorno in the oven!
+2021-05-12T17:27:46  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 240 seconds)
+2021-05-12T17:37:20  <m00se> Nick's Tomato Pie on it's way!
+2021-05-12T17:46:04  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-12T18:21:42  <ectospasm> Anastasius:  the croissant crust was delicious!  Crunchy on the outside, and nice and soft on the inside!
+2021-05-12T18:21:49  <ectospasm> April approved!
+2021-05-12T18:22:49  <Anastasius> :D
+2021-05-12T18:24:53  <daftykins> was this some cunning trick?
+2021-05-12T18:39:14  <darkhal0> https://youtu.be/wZU8lpmGsfI
+2021-05-12T18:39:15  <ubnot2> YouTube: KOOL & THE GANG-funky stuff/more funky stuff 1973 - length: 05m58s - 202,443 views - 2059 likes / 71 dislikes - by MR.FONKSTER on 2013-10-17
+2021-05-12T18:39:21  <darkhal0> Im funky
+2021-05-12T18:39:26  <darkhal0> I need a shower
+2021-05-12T18:44:41  * bazkie licks darkhal0 clean
+2021-05-12T18:45:03  <bazkie> henlo cloud-city, how is everyone doin
+2021-05-12T18:45:21  *** NoDroid <NoDroid!uid278256@gateway/web/irccloud.com/x-maqfsmkpdwkevwkc> has quit IRC ()
+2021-05-12T18:46:18  <daftykins> not too shabby here thanks chief, how is our fave bumpercar?
+2021-05-12T18:46:49  <bazkie> :$
+2021-05-12T18:46:57  <bazkie> i'm doing quite alright for a change!
+2021-05-12T18:47:25  <daftykins> \o/
+2021-05-12T18:47:31  <Anastasius> Good plan. The doing alright for a change thing.
+2021-05-12T18:47:40  <bazkie> i know right?!
+2021-05-12T18:47:45  <bazkie> why didn't i come up with that before
+2021-05-12T18:47:48  <daftykins> are you rich from Ballsy yet?
+2021-05-12T18:47:54  <bazkie> lol no
+2021-05-12T18:48:02  <Anastasius> Because we're morons.
+2021-05-12T18:48:07  <daftykins> but all the female fans moved in, right? :D
+2021-05-12T18:48:12  <bazkie> Anastasius: i read mormons
+2021-05-12T18:48:19  <bazkie> daftykins you know it baby
+2021-05-12T18:48:24  <daftykins> \o/
+2021-05-12T18:48:36  <bazkie> and how is Anastasius ?
+2021-05-12T18:48:48  <Anastasius> Oh hopefully we're not mormons.
+2021-05-12T18:49:00  <bazkie> yeah sounds dreadful
+2021-05-12T18:49:09  <bazkie> you know i'd probably rather be amish
+2021-05-12T18:49:13  <Anastasius> bazkie: Tired, burned out, not sleeping, and totally fucked up mentally. But otherwise okay!
+2021-05-12T18:49:18  <bazkie> :(
+2021-05-12T18:49:24  <bazkie> why are you not sleeping?
+2021-05-12T18:49:38  * bazkie internet hugs Anastasius
+2021-05-12T18:49:39  <Anastasius> Anxiety attacks and insomnia.
+2021-05-12T18:49:42  <bazkie> ugh
+2021-05-12T18:49:59  <Anastasius> It's okay, the past week or so has been better, aside from the nightmares.
+2021-05-12T18:49:59  <bazkie> any active reason or more of a trauma thing?
+2021-05-12T18:50:00  <daftykins> D: that sounds nasty
+2021-05-12T18:50:25  <Anastasius> I dunno, I figure it's cumulative.
+2021-05-12T18:50:37  * Anastasius hops off for a shower, brb.
+2021-05-12T18:50:41  <bazkie> enjoy
+2021-05-12T18:50:50  <bazkie> showers are always good in times of hardship
+2021-05-12T18:51:26  <bazkie> daftykins: i will hire a workplace from june 1st from which i will start work on ballsy 2 :)
+2021-05-12T18:51:34  <daftykins> :O no wai
+2021-05-12T18:51:39  <daftykins> does it cost much to do that?
+2021-05-12T18:51:49  <bazkie> not that much, 115 euro a month
+2021-05-12T18:52:07  <daftykins> is it one of those kinda open door shared places?
+2021-05-12T18:52:12  <bazkie> that's for a desk in a room with ~10 other people
+2021-05-12T18:52:14  <bazkie> yes
+2021-05-12T18:52:21  <bazkie> i like it for the social aspect
+2021-05-12T18:52:54  <daftykins> *nod* might be nice to have some interaction with others
+2021-05-12T18:53:12  <daftykins> i've seen the door for one of those types of places here, looked to have some kinda swiped access though
+2021-05-12T18:53:22  <bazkie> yeah and i noticed a lack of motivation when working here at home so it's time for a more defined workspace
+2021-05-12T18:53:35  <bazkie> swiped? what does that mean
+2021-05-12T18:53:57  <daftykins> https://digitalgreenhouse.gg/workspaces/ o0
+2021-05-12T18:54:00  <ubnot2> Title: Workspaces | Digital Greenhouse (at digitalgreenhouse.gg)
+2021-05-12T18:54:04  <daftykins> security card access
+2021-05-12T18:54:24  <bazkie> ohh, right, i think i misudnerstood you. the place i'll hire is also not open in that sense
+2021-05-12T18:54:43  <bazkie> as in it's open for visitors but you have to pay rent to hire a desk
+2021-05-12T18:55:07  <bazkie> ah looks neat :)
+2021-05-12T18:55:47  <daftykins> wow £50 per month for a hot desk
+2021-05-12T18:55:47  <bazkie> i think what i'll get is similar to that 'allocated desk' thing. but way cheaper
+2021-05-12T18:55:52  <bazkie> this place is very 'hip'
+2021-05-12T18:55:55  <bazkie> the one you pasted 
+2021-05-12T18:56:16  <bazkie> you think that's cheap or expensive?
+2021-05-12T18:56:37  <daftykins> honestly i don't have a clue of the market but that seems good, especially as it says free use of office supplies
+2021-05-12T18:56:46  <Lando-SpacePimp> daftykins, I saw
+2021-05-12T18:56:46  <bazkie> yeah i think so too
+2021-05-12T18:56:49  <daftykins> can totally imagine if i were ever forced to print something, it'd be neat to freeload
+2021-05-12T18:56:50  <Lando-SpacePimp> I saw an article about like
+2021-05-12T18:57:00  <daftykins> Lando-SpacePimp: full sentences and proper punctuation?
+2021-05-12T18:57:00  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-fktkmlojhtflpccc> has joined ##cloud-city
+2021-05-12T18:57:00  <Lando-SpacePimp> I saw an article about like a little cubicle at an airport
+2021-05-12T18:57:01  <bazkie> not sure either. i always only look for those allocated desk things
+2021-05-12T18:57:09  <Lando-SpacePimp> I saw an article about like a little cubicle at an airport that you pay money to use
+2021-05-12T18:57:29  <bazkie> at an airport, that's an odd location, but maybe handy for like, businesspeople
+2021-05-12T19:00:07  <daftykins> honestly though, hamstringing oneself on a laptop when i use triple displays at home... tough call
+2021-05-12T19:00:31  <bazkie> uhhuh!! i feel that
+2021-05-12T19:00:47  <bazkie> that's why i want an own desk. i just bought new monitor + gpu to create a proper second computer with 2 monitors at least
+2021-05-12T19:00:47  <daftykins> but yeah the social benefits seem nice, this one speaks of events and so on
+2021-05-12T19:01:26  <bazkie> allocated desk would be too expensive for you? what kind of work did you do again?
+2021-05-12T19:01:48  <daftykins> freelance small biz and rich person support mostly
+2021-05-12T19:02:28  <daftykins> often i have to go on-site but a couple of days a week to do boring admin-y stuff could work
+2021-05-12T19:02:38  <bazkie> hehe
+2021-05-12T19:02:47  <bazkie> boring admin-y stuff :D
+2021-05-12T19:03:07  <bazkie> i once had this deal where I shared 1 allocated place with a friend
+2021-05-12T19:03:39  <bazkie> so the one with the most free agenda would take the days that the other was off
+2021-05-12T19:03:52  <daftykins> it's only about 300m from my home this place xD
+2021-05-12T19:04:02  <daftykins> ah har
+2021-05-12T19:04:02  <bazkie> it was a good middle ground, cheap and still your own place
+2021-05-12T19:04:07  <bazkie> oooh nice
+2021-05-12T19:04:25  <bazkie> you're gonna hate me when i say how close mine is lol
+2021-05-12T19:04:36  <daftykins> down a flight of stairs? :D
+2021-05-12T19:04:58  <bazkie> almost :p
+2021-05-12T19:05:02  <bazkie> 200m
+2021-05-12T19:05:07  <daftykins> hehe
+2021-05-12T19:05:20  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-12T19:05:35  <bazkie> just by coincidence, but it does mean that it's too good not to hire
+2021-05-12T19:05:49  <bazkie> it must have been intended by the workspace gods
+2021-05-12T19:07:15  <daftykins> absolutely! those desiring Ballsy 2
+2021-05-12T19:07:46  <bazkie> lol
+2021-05-12T19:07:53  <bazkie> that would be like a handful of people but okay :p
+2021-05-12T19:07:58  <bazkie> worth it!
+2021-05-12T19:08:10  <Anastasius> Time-Warp: 
+2021-05-12T19:13:29  <darkhal0> Ahh i cant find my hair brush and my hair's gonna dry in knots
+2021-05-12T19:14:15  <Anastasius> Dreadlocks!
+2021-05-12T19:14:33  <darkhal0> Oof i dont have enough hair anymore for that. It all fell out
+2021-05-12T19:15:30  <Anastasius> https://www.youtube.com/watch?v=UmThYrMvpZo
+2021-05-12T19:15:31  <ubnot2> YouTube: 10cc - Dreadlock Holiday HQ & [1080p HD] - length: 04m29s - 7,793 views - 84 likes / 1 dislikes - by Buchholz3g on 2011-09-24
+2021-05-12T19:16:07  <darkhal0> Hah
+2021-05-12T19:17:25  <darkhal0> Ok shower complete and found brush. Sleep after. Im so god damn tired 
+2021-05-12T19:17:57  <Anastasius> \o/ Pleasant dreams.
+2021-05-12T19:18:00  <Time-Warp> Anastasius: 
+2021-05-12T19:18:07  <Time-Warp> Anastasius: want to see something cool
+2021-05-12T19:18:18  <Anastasius> Time-Warp: Always.
+2021-05-12T19:18:32  <Time-Warp> Anastasius: https://www.youtube.com/watch?v=DZS4VmlTaM8
+2021-05-12T19:18:33  <ubnot2> YouTube: Red And Orange Flame - length: 00m09s - 1 views - 0 likes / 1 dislikes - by Time Warp on 2021-05-12
+2021-05-12T19:19:13  <bazkie> woah
+2021-05-12T19:19:23  <Anastasius> Time-Warp: Neato.
+2021-05-12T19:20:07  <Time-Warp> Anastasius: https://www.youtube.com/watch?v=DKquhnnrqfE
+2021-05-12T19:20:08  <ubnot2> YouTube: Green Flame Test - length: 00m12s - 38 views - 2 likes / 0 dislikes - by Time Warp on 2021-04-20
+2021-05-12T19:20:12  <daftykins> bazkie: one downside is having to care about dress/appearance though i suppose :<
+2021-05-12T19:20:18  <daftykins> at these places
+2021-05-12T19:21:01  <Anastasius> Time-Warp: What's the methodology?
+2021-05-12T19:21:56  <bazkie> daftykins no man, just wear whatever you want :D
+2021-05-12T19:22:25  <bazkie> daftykins: just go in drag to make a fashion statement
+2021-05-12T19:22:31  <Time-Warp> copper
+2021-05-12T19:22:36  <Time-Warp> Anastasius: copper lol
+2021-05-12T19:22:41  <bazkie> woah dat green flame
+2021-05-12T19:22:57  <Time-Warp> so GREEN
+2021-05-12T19:22:58  <bazkie> crazy how nature do that
+2021-05-12T19:23:01  <bazkie> supergreen!
+2021-05-12T19:23:07  <Time-Warp> :D
+2021-05-12T19:23:18  <Anastasius> Ah, copper. I figured.
+2021-05-12T19:23:38  <milehigh-> Copper do be that way
+2021-05-12T19:24:05  <milehigh-> Course i get in bed and now Im awake
+2021-05-12T19:24:09  <milehigh-> How to fight this
+2021-05-12T19:24:13  <Anastasius> One of my favorite friendo dogs was named Copper. He was kind of a shithead.
+2021-05-12T19:24:33  <daftykins> bazkie: well that would mean switching drag Sundays to drag $weekday, but ok!
+2021-05-12T19:24:41  <Anastasius> milehigh-: You can't fight it. Going to bed wakes up the brain these days for some reason.
+2021-05-12T19:24:49  <bazkie> hehe daftykins :D
+2021-05-12T19:27:20  <bazkie> milehigh- Anastasius that's so weird, sometimes you'll be watching tv and almost falling asleep all the time, so you're like, okay cool, let's turn of the tv, and then bam, not falling asleep anymore for hours lol
+2021-05-12T19:27:23  <bazkie> it doesn't make sense
+2021-05-12T19:27:26  <milehigh-> https://usercontent.irccloud-cdn.com/file/Vn7H7Jry/irccloudcapture3614190784523911969.jpg
+2021-05-12T19:27:33  <milehigh-> How can i be more like cat
+2021-05-12T19:27:36  <bazkie> aww
+2021-05-12T19:28:06  <milehigh-> Why couldnt i have been born a cat
+2021-05-12T19:28:37  <bazkie> i think cat doesn't give a shit about much, maybe we should try the same
+2021-05-12T19:28:43  <Anastasius> bazkie: You're right.
+2021-05-12T19:28:53  <milehigh-> !Google how to be a cat in the next life
+2021-05-12T19:28:55  <ubnot2> milehigh-: Can a human come back as a cat – and vice versa? The Buddhist ...: <https://davidmichie.com/can-a-human-come-back-as-a-cat-and-vice-versa-the-buddhist-view/>; If a cat is reincarnated as a human in its next life, is the cat's life ...: <https://www.quora.com/If-a-cat-is-reincarnated-as-a-human-in-its-next-life-is-the-cats-life-considered-a-success-or-a-failure-Why>; 'In my next life, I want to be a cat' |  (1 more message)
+2021-05-12T19:29:21  <milehigh-> Lol
+2021-05-12T19:30:02  <Anastasius> Can I just be a pug instead of a cat? Pugs seem to have a good life from what I've seen.
+2021-05-12T19:30:10  <milehigh-> If a cat is reincarnated into a human in the next Is the cats life Considered to be a failure or success ? See 
+2021-05-12T19:30:18  <milehigh-> Lol thats fucking great
+2021-05-12T19:30:29  <milehigh-> Thank you quora
+2021-05-12T19:30:53  <Anastasius> Quora is full of aspies too.
+2021-05-12T19:32:01  <hoglahoo> tyquorsha
+2021-05-12T19:32:28  <Time-Warp> milehigh- is sus
+2021-05-12T19:32:33  <Time-Warp> more sus then bazkie 
+2021-05-12T19:32:45  <Time-Warp> and almost as sus as jeans 
+2021-05-12T19:32:50  <Time-Warp> :D
+2021-05-12T19:33:22  <jeans> ubnot2: sus is <reply> Time-Warp always sus
+2021-05-12T19:33:23  <ubnot2> jeans: The operation succeeded.
+2021-05-12T19:33:29  <Time-Warp> :o
+2021-05-12T19:33:35  <jeans> !sus
+2021-05-12T19:33:36  <Time-Warp> this could be bad
+2021-05-12T19:33:36  <ubnot2> Time-Warp always sus
+2021-05-12T19:33:40  <Time-Warp> LOL
+2021-05-12T19:34:34  <milehigh-> Nou
+2021-05-12T19:38:39  <bazkie> nn guys
+2021-05-12T19:39:10  <bazkie> hope you insomniacs manage to catch some sleep soon
+2021-05-12T19:39:41  <Anastasius> 'night bazkie 
+2021-05-12T19:39:47  <bazkie> https://i.redd.it/yps61bhraoy61.jpg not mine but here's another cat to show how it's done :D
+2021-05-12T19:40:07  <bazkie> o/
+2021-05-12T19:47:52  <Time-Warp> nite bazkie 
+2021-05-12T19:49:58  <Anastasius> https://www.youtube.com/watch?v=mA54NBtPKdI
+2021-05-12T19:49:59  <ubnot2> YouTube: The Church - Under The Milky Way - length: 05m01s - 6,690,661 views - 46502 likes / 1395 dislikes - by Beatriz on 2012-12-15
+2021-05-12T19:50:26  *** Corin <Corin!~noble@unaffiliated/corin> has quit IRC (Ping timeout: 240 seconds)
+2021-05-12T19:56:32  * Time-Warp tosses a sock at jeans 
+2021-05-12T19:58:11  <Time-Warp> jeans: https://www.youtube.com/watch?v=f7Osh9-Gkg8
+2021-05-12T19:58:12  <ubnot2> YouTube: Sock Attack! - length: 01m08s - 68 views - 3 likes / 0 dislikes - by Obonic the Pine Marten on 2012-04-21
+2021-05-12T19:58:29  <jeans> @8ball does the sock miss?
+2021-05-12T19:58:29  <ubnot2> jeans: Hell no!
+2021-05-12T19:58:32  <jeans> Pffft
+2021-05-12T19:59:10  <Time-Warp> LMFAO
+2021-05-12T20:05:27  <daftykins> ooh that digital greenhouse place has 100/100 fiber - but capped to 40Mb
+2021-05-12T20:05:35  <daftykins> morons write it as MB on the website
+2021-05-12T20:09:41  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 240 seconds)
+2021-05-12T20:16:01  * milehigh- socks jeans
+2021-05-12T20:16:08  <milehigh-> Lol get it? 
+2021-05-12T20:16:12  <milehigh-> Socks and jeans
+2021-05-12T20:16:17  <jeans> Ow
+2021-05-12T20:16:23  * milehigh- slaps jeans knee
+2021-05-12T20:16:56  <milehigh-> Time-Warp: ^
+2021-05-12T20:19:48  <Time-Warp> :o
+2021-05-12T20:20:07  <Time-Warp> ahahahaha
+2021-05-12T20:21:27  <Time-Warp> milehigh-: i had a wierd dream about the pilsberry doe boy it was horrible and he was extra crispy 
+2021-05-12T20:21:35  <Time-Warp> red eyes
+2021-05-12T20:21:39  <Time-Warp> LOL
+2021-05-12T20:21:50  <daftykins> is it, dough?
+2021-05-12T20:21:57  <Anastasius> Hee hee.
+2021-05-12T20:22:02  <milehigh-> Hoohoo!
+2021-05-12T20:22:47  <milehigh-> Time-Warp: i prefer my chicken extra crispy tho 
+2021-05-12T20:22:59  <milehigh-> I fail to see the issue
+2021-05-12T20:23:27  <milehigh-> Crispy dough is pretty good too 
+2021-05-12T20:23:48  <Time-Warp> YUM
+2021-05-12T20:23:53  <Time-Warp> chicken for the win
+2021-05-12T20:25:42  <netdaemon> extra qwispy
+2021-05-12T20:26:19  <Time-Warp> netdaemon: !!!
+2021-05-12T20:27:07  <netdaemon> Time-Warp!
+2021-05-12T20:27:39  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-12T20:28:45  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has quit IRC (Quit: Bye!)
+2021-05-12T20:46:50  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has joined ##cloud-city
+2021-05-12T21:29:25  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has quit IRC (Quit: Bye!)
+2021-05-12T21:29:43  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has joined ##cloud-city
+2021-05-12T21:46:24  *** daftykins <daftykins!~daftykins@pdpc/supporter/21for7/daftykins> has quit IRC (Quit: leaving)
+2021-05-12T21:48:20  *** daftykins <daftykins!~daftykins@pdpc/supporter/21for7/daftykins> has joined ##cloud-city
+2021-05-12T22:05:14  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 268 seconds)
+2021-05-12T23:25:33  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-12T23:36:02  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 246 seconds)
+2021-05-13T00:31:47  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-13T02:35:31  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 252 seconds)
+2021-05-13T02:51:22  *** m0nk <m0nk!~quassel@2601:205:c200:1dd:e61f:13ff:fe50:9e80> has quit IRC (Ping timeout: 276 seconds)
+2021-05-13T02:52:26  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-13T03:25:01  *** pteague <pteague!~pteague@unaffiliated/pteague> has quit IRC (Read error: Connection reset by peer)
+2021-05-13T03:31:43  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-13T05:35:55  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 252 seconds)
+2021-05-13T05:43:09  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (*.net *.split)
+2021-05-13T06:28:02  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has quit IRC (Quit: Bye!)
+2021-05-13T06:29:26  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has joined ##cloud-city
+2021-05-13T06:31:36  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-13T07:10:12  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has quit IRC (Quit: Bye!)
+2021-05-13T07:12:05  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has joined ##cloud-city
+2021-05-13T07:20:53  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has quit IRC (Quit: The Lounge - https://thelounge.chat)
+2021-05-13T07:21:15  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has joined ##cloud-city
+2021-05-13T07:31:41  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-13T08:35:51  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 260 seconds)
+2021-05-13T09:31:30  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-13T11:13:48  <m00se> https://old.reddit.com/r/IdiotsInCars/comments/nbf59k/idiot_in_hummer_filled_5_gas_cans_expecting/
+2021-05-13T11:13:50  <ubnot2> Title: Idiot in Hummer filled 5 gas cans expecting shortages. Put them in his car and lit up a cigarette. Hummer destroyed. Swipe to see gas cans. : IdiotsInCars (at old.reddit.com)
+2021-05-13T11:14:32  <netdaemon> karma
+2021-05-13T11:23:06  <m00se> florida
+2021-05-13T11:46:29  <moomoo> oh m00se 
+2021-05-13T11:47:19  <m00se> http://i.imgur.com/W2Nuy5L.gifv
+2021-05-13T11:47:20  <ubnot2> Title: Imgur (at i.imgur.com)
+2021-05-13T12:36:55  <milehigh-> !forida
+2021-05-13T12:36:56  <ubnot2> milehigh-: Error: "forida" is not a valid command.
+2021-05-13T12:36:59  <milehigh-> !florida
+2021-05-13T12:37:00  <ubnot2> milehigh-: Error: "florida" is not a valid command.
+2021-05-13T12:37:03  <milehigh-> DAMMIT 
+2021-05-13T12:37:37  <moomoo> flo rida
+2021-05-13T12:43:16  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-13T13:09:46  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 265 seconds)
+2021-05-13T13:11:55  <m00se> ayep
+2021-05-13T13:11:57  <m00se> https://i.imgur.com/Y20HHK2.mp4
+2021-05-13T13:13:37  <moomoo> spitmill
+2021-05-13T13:20:00  <darkhal0> yup
+2021-05-13T13:32:06  <Time-Warp> NICE
+2021-05-13T13:51:00  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-13T13:56:56  <daftykins> https://imgur.com/a/kMQNJIe
+2021-05-13T13:56:57  <ubnot2> Title: HelloFRESH is sus... - Album on Imgur (at imgur.com)
+2021-05-13T13:57:54  <daftykins> HF reported that they were unable to source enough spinach for everyone this week
+2021-05-13T13:58:21  <hoglahoo> what a pleasant problem
+2021-05-13T14:04:57  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-13T14:37:18  <netdaemon> daftykins, can put the spares on any sarnies you get from the shop!
+2021-05-13T14:37:29  <netdaemon> raw spinach goes quite good on sammiches
+2021-05-13T14:37:51  <daftykins> hrmm
+2021-05-13T15:15:25  <Anastasius> Good afternoon.
+2021-05-13T15:15:51  <daftykins> \o
+2021-05-13T15:17:24  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Quit: KVIrc 5.0.0 Aria http://www.kvirc.net/)
+2021-05-13T15:21:58  <jip> spinage vanishes when you heat it
+2021-05-13T15:43:13  <daftykins> jip: \o what's new?
+2021-05-13T15:53:40  <Anastasius> lol, the gas pipeline ransomware thing... they paid them 5 million dollars.
+2021-05-13T15:53:47  <daftykins> D:
+2021-05-13T15:53:58  <daftykins> any word on if they gave up the key?
+2021-05-13T15:54:07  <Anastasius> Meanwhile, some shithole in West Virginia was charging $7/gallon today.
+2021-05-13T15:54:11  <Anastasius> No idea.
+2021-05-13T15:54:59  <Anastasius> The pipeline seems open anyway.
+2021-05-13T15:55:05  <daftykins> each X-Files episode is made more entertaining imagining Mulder and Scully are travelling on the FBI budget at inflated prices
+2021-05-13T15:55:29  <Anastasius> I've noticed this.
+2021-05-13T16:00:21  <Anastasius> Tonight's lineup: http://www.comettv.com/schedule/
+2021-05-13T16:00:22  <ubnot2> Title: COMET TV Sci-fi Network (at www.comettv.com)
+2021-05-13T16:09:05  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 265 seconds)
+2021-05-13T16:38:13  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-13T16:47:09  <Anastasius> Interesting side note: I got banned from some stupid Star Trek subreddit last night for saying and I quote: "It's just a TV show."
+2021-05-13T16:47:41  <Anastasius> Apparently you don't want to go about insulting their religion there.
+2021-05-13T16:48:31  *** NoCode <NoCode!~NoCode@136.144.35.139> has joined ##cloud-city
+2021-05-13T16:48:41  <hoglahoo> i bet you linked the snl skit too "get a life"
+2021-05-13T16:49:03  <Anastasius> Nah, though I should have.
+2021-05-13T16:50:38  <Anastasius> [–]yoshemitzuChief Medical Officer[M] 1 point 12 hours ago 
+2021-05-13T16:50:38  <Anastasius> Please refer to our in-depth contribution policy:
+2021-05-13T16:50:38  <Anastasius>     If you want to say "it's just a show" or "because plot" or "it must be another timeline," don't—these are conversation stoppers which by definition cannot be in-depth.
+2021-05-13T16:50:57  <Anastasius> lol
+2021-05-13T16:51:05  * NoCode eats ice cream
+2021-05-13T16:53:33  <hoglahoo> banning is more of a conversation stopper than that
+2021-05-13T16:53:43  <hoglahoo> which by definition, apparently, cannot be in-depth either
+2021-05-13T16:54:09  <daftykins> ooh hoglahoo dun out-thought them
+2021-05-13T16:54:16  <hoglahoo> thats right
+2021-05-13T16:54:44  <daftykins> so they banned you, preventing discussion, for preventing discussion
+2021-05-13T16:55:02  *** pteague <pteague!~pteague@unaffiliated/pteague> has joined ##cloud-city
+2021-05-13T16:55:22  <Anastasius> Pretty much.
+2021-05-13T16:55:43  <Anastasius> Here's the deal though. IT'S JUST A TV SHOW.
+2021-05-13T16:59:11  <Anastasius> brb.
+2021-05-13T16:59:17  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Quit: YOU! WHAT PLANET IS THIS?!)
+2021-05-13T16:59:57  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-13T17:02:01  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-13T17:43:53  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-13T17:52:36  *** Time-Warp is now known as ferret
+2021-05-13T17:52:59  *** ferret is now known as Time-Warp
+2021-05-13T19:23:35  <jeans> ubnot2: ferret is <reply> That's no ferret! >_>
+2021-05-13T19:23:36  <ubnot2> jeans: The operation succeeded.
+2021-05-13T19:25:14  <netdaemon> !ferret
+2021-05-13T19:25:15  <ubnot2> That's no ferret! >_>
+2021-05-13T20:24:29  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-13T20:26:57  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-fktkmlojhtflpccc> has quit IRC ()
+2021-05-13T20:39:01  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 265 seconds)
+2021-05-13T20:44:41  <daftykins> !bed
+2021-05-13T20:44:42  <ubnot2> It's bed, Jim
+2021-05-13T20:45:39  <milehigh-> bed sounds amazing
+2021-05-13T20:45:46  <milehigh-> i might do that actually 
+2021-05-13T22:36:13  *** NoCode <NoCode!~NoCode@136.144.35.139> has joined ##cloud-city
+2021-05-13T23:01:46  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Ping timeout: 268 seconds)
+2021-05-13T23:17:19  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 265 seconds)
+2021-05-13T23:18:52  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-13T23:28:33  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-13T23:33:03  <jeans> ubnot2: boomer is <reply> https://www.gocomics.com/calvinandhobbes/1995/11/30
+2021-05-13T23:33:04  <ubnot2> jeans: The operation succeeded.
+2021-05-13T23:33:25  <jeans> ubnot2: okboomer is <reply> https://www.gocomics.com/calvinandhobbes/1995/11/30
+2021-05-13T23:33:26  <ubnot2> jeans: The operation succeeded.
+2021-05-13T23:40:33  <Anastasius> Wat?
+2021-05-13T23:41:25  <Anastasius> Oh, got it.
+2021-05-13T23:41:37  <Anastasius> Boomer jokes. Ha ha. So funny.
+2021-05-13T23:45:52  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has quit IRC (Ping timeout: 240 seconds)
+2021-05-13T23:49:46  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has joined ##cloud-city
+2021-05-13T23:54:40  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Read error: Connection reset by peer)
+2021-05-13T23:55:54  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-14T00:10:59  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Quit: YOU! WHAT PLANET IS THIS?!)
+2021-05-14T00:11:15  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-14T00:30:32  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Ping timeout: 252 seconds)
+2021-05-14T00:41:57  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-14T01:03:29  <jip> daftykins: still busy :-) Online job interview in a few hours
+2021-05-14T01:21:46  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Read error: Connection reset by peer)
+2021-05-14T01:21:53  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-14T03:24:37  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Read error: Connection reset by peer)
+2021-05-14T03:24:51  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-14T04:53:31  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-14T05:28:44  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 245 seconds)
+2021-05-14T06:24:48  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-14T07:06:20  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has quit IRC (Quit: Bye!)
+2021-05-14T07:06:37  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has joined ##cloud-city
+2021-05-14T07:13:34  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Remote host closed the connection)
+2021-05-14T07:15:42  *** m00se <m00se!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-14T08:57:44  *** darkhal0 changes topic to "Welcome to Cloud City! You truly belong here with us among the clouds! | https://i.imgur.com/Xk5UNc7.jpg | *ALL HAIL CELLO ASIAN* | APPLY DIRECTLY TO THE FOREHEAD! | Everyone wish NOCODE, MILEHIGH-, BAZKIE, CLOUDYBANANA, DAFTYKINS KITTEN, M00SE, jeans, and Divemistress a HAPPY BIRTHDAY!"
+2021-05-14T12:15:46  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-14T12:48:29  <Anastasius> moomoo: Seen Fuchs lately? ;)
+2021-05-14T12:49:44  *** Corin <Corin!~noble@unaffiliated/corin> has joined ##cloud-city
+2021-05-14T13:11:31  <pteague> centos & tuttle, ok
+2021-05-14T13:38:56  <moomoo> Anastasius: not that I cN recall!
+2021-05-14T13:40:40  <Anastasius> moomoo: Well https://fuchsnet.ch/privat/fn-resign-letter.txt
+2021-05-14T13:42:22  <moomoo> oh boy
+2021-05-14T13:42:24  <moomoo> irc drama
+2021-05-14T13:42:39  <Anastasius> DUN DUN DUN.
+2021-05-14T13:47:45  <moomoo> ok what I don't get is how someone could have put millions into freenode
+2021-05-14T13:48:37  <moomoo> like, on what?
+2021-05-14T13:52:49  <Anastasius> elky's panty collection? (yuck)
+2021-05-14T13:53:42  <hoglahoo> christelmas parties
+2021-05-14T13:54:12  <Anastasius> Oh sorry, that might be considered "harassment" again and this time I could be banned for 4 months. You didn't see that.
+2021-05-14T13:55:01  <Anastasius> Another spirit animal: https://www.youtube.com/watch?v=wo6Vh4Uz7Sk
+2021-05-14T13:55:02  <ubnot2> YouTube: R.E.M. - Leaving New York (Video) - length: 04m45s - 3,193,433 views - 15395 likes / 665 dislikes - by remhq on 2009-10-26
+2021-05-14T13:56:58  <moomoo> Anastasius: you must strive to be a better human
+2021-05-14T13:57:17  <moomoo> also I am getting vaxxed tomorrow woo
+2021-05-14T13:57:36  <Anastasius> First?
+2021-05-14T13:57:48  <Anastasius> Is it one or two?
+2021-05-14T13:58:11  <moomoo> first of two
+2021-05-14T13:58:38  <hoglahoo> \o/
+2021-05-14T13:59:58  * darkhal0 munches a margherita pizza
+2021-05-14T14:00:05  <darkhal0>  the new local place is fucking goooood
+2021-05-14T14:00:12  <Anastasius> :D
+2021-05-14T14:00:27  <netdaemon> do like me some margherita pizza :D
+2021-05-14T14:00:37  <Anastasius> Damn me to hell, I'm recruiting drama people from one channel to ##c-n again.
+2021-05-14T14:00:41  <netdaemon> especially with some balsamic vinegarrete on top!
+2021-05-14T14:00:52  <Anastasius> If emma wasn't brain dead I think she would approve.
+2021-05-14T14:01:19  <darkhal0> haha 
+2021-05-14T14:01:28  <darkhal0> did you guys see the freenode fiasco today 
+2021-05-14T14:01:41  <netdaemon> something about cristel selling the company?
+2021-05-14T14:02:06  <darkhal0> https://p.haavard.me/407
+2021-05-14T14:07:01  <moomoo> if all the staff quit who will ban Anastasius 
+2021-05-14T14:08:28  <darkhal0> !popcorn
+2021-05-14T14:08:29  <ubnot2> darkhal0: Error: "popcorn" is not a valid command.
+2021-05-14T14:08:33  <darkhal0> god dammit
+2021-05-14T14:09:39  <darkhal0> 10:21:41 <milehigh-> if you're getting a lawyer to have control over freenode i hope that lawyer explains to you what an insolent little shit you are and that you can't just assume supreme executive power just because some watery tart threw a sword at you 
+2021-05-14T14:09:42  <Anastasius> Gosh, if I got some controlling interest over freenode (I've donated no money but have donated plenty of time so that should count, right?) wait for the ban list.
+2021-05-14T14:09:56  <Anastasius> I have a list.
+2021-05-14T14:11:14  <milehigh-> i've donated millions of thoughts and prayers
+2021-05-14T14:11:33  <milehigh-> that's more valuable than money 
+2021-05-14T14:12:05  <Anastasius> Amen.
+2021-05-14T14:12:09  <Anastasius> So say we all.
+2021-05-14T14:12:28  <moomoo> I've donated millions of keystrokes
+2021-05-14T14:12:37  <moomoo> 90% of which were correct
+2021-05-14T14:12:47  <Anastasius> :D
+2021-05-14T14:13:17  <milehigh-> my fingers are too fat 
+2021-05-14T14:15:03  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Ping timeout: 268 seconds)
+2021-05-14T14:57:48  <milehigh-> oh i just realized i asked if he was single so i could divorce him later and own half of freenode
+2021-05-14T14:57:51  <milehigh-> hahaha 
+2021-05-14T15:00:04  <milehigh-> 11:08:43 <milehigh-> MILLIONS
+2021-05-14T15:00:04  <milehigh-> 11:08:49 <moonshin1> sorry, obscure reference maybe
+2021-05-14T15:00:04  <milehigh-> 11:08:54 <milehigh-> holy shit rasengan ok so i do have an important question
+2021-05-14T15:00:04  <milehigh-> 11:08:56 <milehigh-> are you single
+2021-05-14T15:00:04  <milehigh-> 11:08:58 <joepie91> what gives you the legitimacy that you claim to have to speak in any kind of official or organizational capacity?
+2021-05-14T15:00:04  <milehigh-> 11:09:00 <wright> rasengan: if you donated millions then where is that reflected on the company's house filing history
+2021-05-14T15:00:05  <milehigh-> 11:09:00 <brabo> joepie91: nothing, but we should care about his bribe attempts to get prominent users on his side ;)
+2021-05-14T15:00:05  <milehigh-> 11:09:01 <@rasengan> brabo: I'm not going to paste something that's incomplete.
+2021-05-14T15:00:06  <milehigh-> 11:09:08 <joepie91> milehigh-: let's not do that.
+2021-05-14T15:00:06  <milehigh-> 11:09:10 <@rasengan> brabo: But it started in april 3 and this will all be verified.
+2021-05-14T15:00:07  <milehigh-> 11:09:12 <brabo> rasengan: ok so then we do not believe you lol
+2021-05-14T15:00:07  <milehigh-> 11:09:20 <milehigh-> joepie91: what? i just want to know if he wants a future ex wife 
+2021-05-14T15:00:08  <milehigh-> 11:09:23 <brabo> rasengan: keep hiding things from the community
+2021-05-14T15:00:08  <milehigh-> 11:09:28 <brabo> surely more trust will be had
+2021-05-14T15:00:09  <milehigh-> 11:09:29 <milehigh-> i can take half of freenode for you guys 
+2021-05-14T15:00:09  <milehigh-> 11:09:29 <joepie91> rasengan: so that means there's no document. got it.
+2021-05-14T15:09:21  <jip> chatting with Dutch people
+2021-05-14T15:15:11  <Anastasius> First of all, who'd want to own freenode anyway? This place sucks.
+2021-05-14T15:15:29  <Anastasius> Secondly, I wouldn't marry that guy even if he was Jed Clampett.
+2021-05-14T15:16:31  <milehigh-> lol
+2021-05-14T15:16:53  <milehigh-> see i'd be all spiteful and give freenode to cholby or something
+2021-05-14T15:19:27  <Anastasius> Now that would be a plan. Or better yet, that one aspie dude who's name I'm forgetting now. DYK.
+2021-05-14T15:19:29  <jip> Anastasius: Hey, Freenode is a wonderful serious place to irc
+2021-05-14T15:19:31  <Anastasius> That was it.
+2021-05-14T15:19:41  <Anastasius> jip: No it's not.
+2021-05-14T15:19:59  <jip> We are here with friends chatting, aren't we?
+2021-05-14T15:20:08  <milehigh-> srs bzns
+2021-05-14T15:20:11  <Anastasius> Here, yes. At large, no.
+2021-05-14T15:20:30  <Anastasius> I would pay a million dollars if DYK could be the freenode owner.
+2021-05-14T15:20:37  <jip> Anastasius: But this is the right place to be 
+2021-05-14T15:20:44  <Anastasius> Let's start an investment.
+2021-05-14T15:20:52  <Anastasius> Make it happen.
+2021-05-14T15:20:52  <jip> I am sure other people have their right place to be in other spots
+2021-05-14T15:21:25  <Anastasius> jip: well yeah. How've you been lately?
+2021-05-14T15:21:45  <milehigh-> hope youre well
+2021-05-14T15:23:03  <jip> Anastasius: lost my job. buying a house. caring for kids. job searching. divorcing. figuring out what I need to do when I get the keys to my place.
+2021-05-14T15:23:44  <Anastasius> jip: Ouch, seems tough.
+2021-05-14T15:23:50  <Anastasius> (sincerely)
+2021-05-14T15:24:48  <jip> There is so much going on and so much to do I don't have time to worry and feel sorry for myself. So I am doing great :-)
+2021-05-14T15:25:12  <milehigh-> \o/
+2021-05-14T15:25:17  <milehigh-> i understand that ! 
+2021-05-14T15:25:30  <milehigh-> i hope it all goes well 
+2021-05-14T15:25:58  <jip> Today I bought solarpanels on the side of a highway. How cool is that. They will save me 200,- euro on my electricity bill during the next 9 years.
+2021-05-14T15:26:10  <milehigh-> excellent
+2021-05-14T15:26:14  <jip> a year
+2021-05-14T15:26:36  <milehigh-> i plan on doing solar after i replace the roof
+2021-05-14T15:27:45  <jip> I couldn't place them on my current roof
+2021-05-14T15:29:39  <milehigh-> i'm sure it will have great use at the new place :)
+2021-05-14T15:36:41  <jip> Oh milehigh-, I was sorry to read your cat passed away. What happened?
+2021-05-14T15:43:25  <milehigh-> he stopped breathing, there was a lot of fluid in his lungs :/
+2021-05-14T15:43:45  <milehigh-> we were all around to give him lovies though 
+2021-05-14T15:44:40  <milehigh-> the move was too stressful to him 
+2021-05-14T15:48:22  <jip> Aaaw
+2021-05-14T15:49:02  <jip> yeah, moving sucks for some cats
+2021-05-14T15:50:37  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 260 seconds)
+2021-05-14T15:53:16  <milehigh-> heis missed
+2021-05-14T15:56:34  <jip> Aw
+2021-05-14T16:06:12  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-14T16:09:26  *** NoCode <NoCode!~NoCode@136.144.35.139> has joined ##cloud-city
+2021-05-14T17:16:59  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-tihgsovaxqkiplfo> has joined ##cloud-city
+2021-05-14T17:20:22  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 252 seconds)
+2021-05-14T17:37:12  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-14T18:23:19  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-14T18:24:08  *** NoCode <NoCode!~NoCode@136.144.35.139> has joined ##cloud-city
+2021-05-14T18:32:28  *** UniCode <UniCode!~NoCode@136.144.35.169> has joined ##cloud-city
+2021-05-14T18:32:30  *** UniCode <UniCode!~NoCode@136.144.35.169> has quit IRC (Remote host closed the connection)
+2021-05-14T18:32:48  *** UniCode <UniCode!~NoCode@136.144.35.169> has joined ##cloud-city
+2021-05-14T18:33:17  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Disconnected by services)
+2021-05-14T18:33:33  *** UniCode is now known as NoCode
+2021-05-14T18:54:53  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-14T20:20:30  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 265 seconds)
+2021-05-14T21:47:25  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-14T21:51:51  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 265 seconds)
+2021-05-14T22:44:43  <jeans> Anastasius: ow
+2021-05-14T22:45:47  <jeans> Time-Warp: ^
+2021-05-14T22:47:47  <Anastasius> jeans: Hmm?
+2021-05-14T22:49:42  <jeans> Really hot wings
+2021-05-14T23:25:49  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Ping timeout: 245 seconds)
+2021-05-15T00:47:56  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 260 seconds)
+2021-05-15T00:47:57  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-15T01:43:35  <moomoo> Anastasius: https://mobile.twitter.com/dannydutch/status/709472084729208833
+2021-05-15T02:24:07  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-15T02:52:54  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 245 seconds)
+2021-05-15T03:04:54  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-15T04:34:50  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Quit: KVIrc 5.0.0 Aria http://www.kvirc.net/)
+2021-05-15T05:08:44  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 245 seconds)
+2021-05-15T05:29:52  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-15T06:04:52  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-15T06:56:01  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 268 seconds)
+2021-05-15T07:21:34  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-15T07:29:13  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-15T08:35:27  *** Lando-HoloNet is now known as Lando-SpacePimp
+2021-05-15T10:01:36  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-15T13:02:09  <Anastasius> moomoo: :D
+2021-05-15T13:51:37  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Quit: You! What planet is this?!)
+2021-05-15T13:52:12  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-15T13:52:34  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Client Quit)
+2021-05-15T13:53:11  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-15T14:09:04  *** Phome <Phome!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-15T14:09:35  *** Phome <Phome!~m00se@unaffiliated/m00se> has quit IRC (Client Quit)
+2021-05-15T14:24:14  <daftykins> *clink*
+2021-05-15T14:24:32  <Anastasius> Reckon it's about that time.
+2021-05-15T14:24:41  <Anastasius> After I clean up the pancake mess I made this morning.
+2021-05-15T14:25:31  <daftykins> ooh
+2021-05-15T14:27:20  <Lando-SpacePimp> I'm trying to avoid alcohol for the 2 weeks after my vaccinations
+2021-05-15T14:37:46  <Anastasius> Good plan.
+2021-05-15T14:39:15  <Lando-SpacePimp> Anastasius, look what superkuh made last night for tonight's movie
+2021-05-15T14:39:45  <Anastasius> What's that?
+2021-05-15T14:40:04  <Lando-SpacePimp> snaked "retired" from organizing movie nights
+2021-05-15T14:40:15  <Lando-SpacePimp> so this week I'm making everyone watch Golden Bat 
+2021-05-15T14:40:23  <Anastasius> Oh lort...
+2021-05-15T14:40:24  <Anastasius> :D
+2021-05-15T15:01:42  * darkhal0 clinks too
+2021-05-15T15:01:57  <darkhal0> There is a REALLY adorable dog up my hill that is just WHINING to meet us
+2021-05-15T15:02:08  <darkhal0> If he comes back to the fence i will snap pic
+2021-05-15T15:02:27  <Anastasius> Makeitsew? And what type?
+2021-05-15T15:02:38  <Anastasius> errr, makeitsew!
+2021-05-15T15:03:01  <darkhal0> Looks like a boxer
+2021-05-15T15:05:19  <darkhal0> he hangs out up at the top there. also, bubbas garden is where the fresh dirt and little succulent plant will be planted..  https://usercontent.irccloud-cdn.com/file/KS8AGBEQ/0515211403b.jpg
+2021-05-15T15:06:13  <darkhal0> Doggie went away but im sure hell be back
+2021-05-15T15:06:40  <Anastasius> Friendo for Winter, maybe. :D
+2021-05-15T15:07:36  <darkhal0> She doesn't seem to want other doggie friends, unfortunately.  
+2021-05-15T15:07:54  <darkhal0> But i can still be his friend :p
+2021-05-15T15:08:13  <Anastasius> :D
+2021-05-15T15:32:15  <darkhal0> oh hey cool just found like 15 worthless vinyl records in a drawer 
+2021-05-15T15:32:16  <darkhal0> lol
+2021-05-15T15:32:38  <darkhal0> perhaps there needs to be a thrift store pile
+2021-05-15T15:32:55  <Anastasius> Keep 'em! What are they?
+2021-05-15T15:33:22  <darkhal0> Al Hirt? 
+2021-05-15T15:33:41  <darkhal0> Charles Aznavour
+2021-05-15T15:33:43  <darkhal0> ?
+2021-05-15T15:33:44  <Anastasius> That sounds familiar but I can't place it.
+2021-05-15T15:34:00  <darkhal0> Johnnie Ray's Greatest Hits? 
+2021-05-15T15:34:14  <darkhal0> i might give that one a whirl, looks kinda swingy
+2021-05-15T15:34:23  <Anastasius> Al Hirt was born on November 7, 1922 in New Orleans, Louisiana, USA as Alois Maxwell Hirt Jr. He is known for his work on Kill Bill: Vol. 1 (2003), 21 Jump Street (2012) and The Green Hornet (1974). H
+2021-05-15T15:34:33  <darkhal0> no shit?
+2021-05-15T15:34:40  <darkhal0> okay well maybe i'll look these up 
+2021-05-15T15:34:41  <Anastasius> Yep, seems so.
+2021-05-15T15:35:06  <Anastasius> Could be pretty chill.
+2021-05-15T15:36:02  <darkhal0> America Lima (portuguese vocal) but that one has no record inside 
+2021-05-15T15:36:12  <darkhal0> Doug Kershaw? 
+2021-05-15T15:37:18  <Anastasius> Hmmm, seems like they had a thing for Louisiana. :D
+2021-05-15T15:37:23  <darkhal0> Silvestre Vargas looks like some legit mexican mariachi 
+2021-05-15T15:37:48  <Anastasius> Time to find a turntable!
+2021-05-15T15:39:29  <Anastasius> Last time I was at Wally World I noticed they've even started selling limited supplies of vinyl.
+2021-05-15T15:39:43  <Anastasius> For around $20 a pop.
+2021-05-15T15:39:52  <darkhal0> nice
+2021-05-15T15:39:57  <darkhal0> maybe it's coming back 
+2021-05-15T15:40:03  <Anastasius> Oh it definitely is.
+2021-05-15T15:40:43  <Anastasius> I think they had MJ's Thriller on vinyl, double album set for 30 bucks.
+2021-05-15T15:40:59  <Anastasius> Or at least I think it was a double album.
+2021-05-15T15:41:29  <Anastasius> Some Prince and various other "classics".
+2021-05-15T16:20:03  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Quit: You! What planet is this?!)
+2021-05-15T16:20:52  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-15T17:20:03  <daftykins> ah, this feels pretty damn good, rain outside... just murdered a fancy magnum ice cream and now i have baseball and twitch on the go
+2021-05-15T17:20:26  <Anastasius> Sounds like a relaxing evening.
+2021-05-15T17:21:09  <Anastasius> Do I even want to watch this game?
+2021-05-15T17:22:51  <Lando-SpacePimp> Anastasius, https://youtu.be/z13qnzUQwuI
+2021-05-15T17:22:52  <ubnot2> YouTube: Gunther - Ding Dong Song Gunther Video (You Touch My Tralala) - length: 04m01s - 43,642,699 views - 396909 likes / 26803 dislikes - by Morilec on 2010-02-18
+2021-05-15T17:23:11  <Anastasius> No thank you!
+2021-05-15T17:23:49  <daftykins> Anastasius: do you just have to tune in, to jinx the team or does it work another way? :D
+2021-05-15T17:24:18  <Anastasius> daftykins: I'm not sure if I want to know. It seems like everytime I watch they lose.
+2021-05-15T17:32:51  <Lando-SpacePimp> Anastasius, https://youtu.be/A1BK6admJwo
+2021-05-15T17:32:52  <ubnot2> YouTube: Mousse T. - Horny '98 (Mousse T.'s Extended Mix) [feat. Hot 'n' Juicy] - length: 04m47s - 540,262 views - 4648 likes / 82 dislikes - by DinoMusicTunes on 2012-07-09
+2021-05-15T17:35:39  <daftykins> "i first heard the remix of this on my local station years ago on Halloween, and SWORE it was saying "I'm haunted." "
+2021-05-15T17:38:49  <Lando-SpacePimp> Ah, I see daftykins has seen the light and now clicks Lando-SpacePimp URLs
+2021-05-15T17:39:32  <daftykins> eeeeh it's not guaranteed!
+2021-05-15T17:39:45  <Anastasius> It could be Gowron-teed though.
+2021-05-15T17:40:38  <Anastasius> Did I mention I got kicked out of a Star Trek subreddit for daring to suggest it was just a TV show?
+2021-05-15T17:40:55  <Anastasius> Because that was amusing.
+2021-05-15T17:41:01  <Lando-SpacePimp> Anastasius, my house clan tracksuit is Umbro
+2021-05-15T17:41:35  <daftykins> Anastasius: let's pool our money and get the actor that played Gowron to star in an insurance ad dressed as a mafia-Klingon with sports gear on
+2021-05-15T17:41:56  <Anastasius> Lando-SpacePimp: r/Klingonsintracksuits should be a thing.
+2021-05-15T17:42:33  <daftykins> create it! become mods!
+2021-05-15T18:22:46  <darkhal0> ok this was excellent https://usercontent.irccloud-cdn.com/file/ZC5e3zWf/135988713662486_n.jpg
+2021-05-15T18:22:52  <Spec> it's cicada time
+2021-05-15T18:23:31  * darkhal0 screeches 
+2021-05-15T18:23:52  <darkhal0> i hear the creek frogs at night now Spec !
+2021-05-15T18:24:00  <darkhal0> (i moved into newhaus!)
+2021-05-15T18:43:20  <Time-Warp> Anastasius: https://www.youtube.com/watch?v=1K9mO5QzOIQ
+2021-05-15T18:43:21  <ubnot2> YouTube: The Grasshopper Mouse Is a Killer Howling Rodent | Nat Geo Wild - length: 02m19s - 1,500,576 views - 30575 likes / 294 dislikes - by Nat Geo WILD on 2018-06-30
+2021-05-15T18:43:30  <Time-Warp> howling killer mice oh were screwed
+2021-05-15T18:44:42  <Time-Warp> jeans: 
+2021-05-15T18:44:49  <Time-Warp> are you aware of this howling killer mouse
+2021-05-15T18:44:49  <Time-Warp> LOL
+2021-05-15T18:45:11  <Anastasius> Time-Warp: We're all doomed. https://www.youtube.com/watch?v=z1g1ZB4WNhw
+2021-05-15T18:45:12  <ubnot2> YouTube: Friday the 13th (1980) - Crazy Ralph - length: 01m36s - 41,041 views - 507 likes / 12 dislikes - by Dead Last Podcast on 2016-04-18
+2021-05-15T18:46:53  <Time-Warp> Anastasius: UT OH
+2021-05-15T18:46:54  <Time-Warp> cursed
+2021-05-15T18:46:57  <Time-Warp> its cursed
+2021-05-15T18:47:19  * Anastasius hops on his bicycle to shout more nonsensical doomsday prophecies at the next cabin
+2021-05-15T18:49:47  <Anastasius> Time-Warp: I think we need t-shirts. https://images.merchyolopremium.com/wp-content/uploads/2020/08/jason-voorhees-i-don-t-always-ch-ch-ch-ch-but-when-i-do-i-ah-ah-ah-ah-shirt-Shirt.jpg
+2021-05-15T19:06:51  <Time-Warp> Anastasius: bad ass shirt
+2021-05-15T19:06:51  <Time-Warp> LOL
+2021-05-15T19:10:20  <m00se> !eww
+2021-05-15T19:10:21  <ubnot2> m00se: Error: "eww" is not a valid command.
+2021-05-15T19:10:29  <m00se> ok I didn't think so
+2021-05-15T19:16:28  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Remote host closed the connection)
+2021-05-15T19:24:49  <Time-Warp> who is more sus. jeans or milehigh- 
+2021-05-15T19:25:13  <Time-Warp> milehigh- is like megga meggaa meggaaa sus and jeans is like zillion sus
+2021-05-15T19:25:20  <jeans> !sus
+2021-05-15T19:25:21  <ubnot2> Time-Warp always sus
+2021-05-15T19:25:23  <Time-Warp> LOL
+2021-05-15T19:25:24  <milehigh-> nou
+2021-05-15T19:25:32  <Time-Warp> \o/
+2021-05-15T19:25:41  <milehigh-> BRB I GOTTA PEE
+2021-05-15T19:25:51  <daftykins> SUS!
+2021-05-15T19:35:04  <Time-Warp> milehigh-: why are there 30 bodys by the toilet
+2021-05-15T19:35:28  <Time-Warp> must not be milehigh- shes gone to the bathroom
+2021-05-15T19:35:34  <Time-Warp> its jeans !!!
+2021-05-15T19:39:56  <daftykins> more to the point, why are there these 3 little sea shells on a shelf in there?
+2021-05-15T19:40:31  *** m00se <m00se!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-15T19:41:34  <Time-Warp> daftykins: LOL
+2021-05-15T19:41:45  <Time-Warp> the 3 sea shells was that from freejack ?
+2021-05-15T19:41:59  <Time-Warp> Anastasius: remember freejack
+2021-05-15T19:42:22  <Time-Warp> i forgot what movie the 3 sea shells came from
+2021-05-15T19:44:07  <daftykins> Demolition Man :D
+2021-05-15T19:47:24  <milehigh-> its Time-Warp 
+2021-05-15T19:51:22  <Time-Warp> :o
+2021-05-15T19:51:37  <Time-Warp> milehigh-: check out this lighter i found
+2021-05-15T19:51:57  <Time-Warp> https://www.youtube.com/watch?v=DZS4VmlTaM8
+2021-05-15T19:51:58  <ubnot2> YouTube: Red And Orange Flame - length: 00m09s - 32 views - 1 likes / 1 dislikes - by Time Warp on 2021-05-12
+2021-05-15T19:52:23  <Time-Warp> jeans: https://www.youtube.com/watch?v=DKquhnnrqfE
+2021-05-15T19:52:24  <ubnot2> YouTube: Green Flame Test - length: 00m12s - 40 views - 3 likes / 0 dislikes - by Time Warp on 2021-04-20
+2021-05-15T19:52:35  <Time-Warp> LOL
+2021-05-15T19:52:49  <Time-Warp> BEHOLD GREEEEN FLAME
+2021-05-15T19:59:45  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Read error: Connection reset by peer)
+2021-05-15T20:00:18  <Anastasius> You're a green flame.
+2021-05-15T20:00:19  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-15T20:01:28  <daftykins> Time-Warp: did Hank Hill sell you that?
+2021-05-15T20:34:31  <Time-Warp> ahahahaha
+2021-05-15T20:34:40  <Time-Warp> daftykins: he would be upset its not propaine 
+2021-05-15T20:34:59  <daftykins> oh damn you went over the road to Copper and Copper accessories?
+2021-05-15T20:47:32  <Time-Warp> Anastasius: https://www.youtube.com/watch?v=NSypnaxAlP4
+2021-05-15T20:47:33  <ubnot2> YouTube: Cake- Frank Sinatra - length: 04m00s - 3,612,513 views - 12041 likes / 362 dislikes - by jonriley on 2005-12-14
+2021-05-15T21:06:02  *** Corin <Corin!~noble@unaffiliated/corin> has quit IRC (Ping timeout: 265 seconds)
+2021-05-15T21:18:49  <daftykins> ok time to head out
+2021-05-15T21:19:39  <daftykins> g'night!
+2021-05-15T21:48:20  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 268 seconds)
+2021-05-15T21:53:20  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Read error: Connection reset by peer)
+2021-05-15T21:53:37  *** m00se <m00se!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-15T21:59:07  <Time-Warp> nite daftykins 
+2021-05-15T22:03:25  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Remote host closed the connection)
+2021-05-15T22:21:16  *** m00se <m00se!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-15T23:12:54  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-15T23:13:14  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-15T23:13:40  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Remote host closed the connection)
+2021-05-15T23:43:26  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 240 seconds)
+2021-05-15T23:57:58  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-16T02:02:16  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 260 seconds)
+2021-05-16T02:13:59  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-16T02:14:13  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Remote host closed the connection)
+2021-05-16T02:17:43  *** m00se <m00se!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-16T02:45:47  *** m00se_j <m00se_j!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-16T02:49:11  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Ping timeout: 240 seconds)
+2021-05-16T02:49:12  *** m00se_j is now known as m00se
+2021-05-16T04:18:08  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 265 seconds)
+2021-05-16T04:33:57  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-16T04:53:57  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-16T06:57:54  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 252 seconds)
+2021-05-16T07:53:52  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-16T08:42:15  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Read error: Connection reset by peer)
+2021-05-16T08:49:33  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-16T09:12:16  <milehigh-> netdaemon: my suby needs to see a doctor 
+2021-05-16T09:12:35  <milehigh-> There's the cherry on top to this amazing fucking week
+2021-05-16T09:14:40  <netdaemon> :<. any idea on what's wrong with it?
+2021-05-16T09:15:06  <milehigh-> there's something leaking in the engine 
+2021-05-16T09:15:11  <milehigh-> makin a buncha smokes
+2021-05-16T09:15:33  <milehigh-> one of the famous gasket leaks i'm guessing 
+2021-05-16T09:15:41  <milehigh-> timing cover leak is looking likely 
+2021-05-16T09:15:51  <milehigh-> I don't know enough to be sure.
+2021-05-16T09:16:29  <milehigh-> i did a bad and exerted her a bit while i was moving. the garage is at the bottom of the hill and my house is on the top so i was driving her up a steep driveway back and forth for a while 
+2021-05-16T09:18:39  <milehigh-> and it was hot 
+2021-05-16T09:22:43  <netdaemon> D:
+2021-05-16T09:23:01  <daftykins> murderer ;_;
+2021-05-16T09:25:14  <darkhal0> shes not dead! i refuse
+2021-05-16T09:25:29  <darkhal0> she's gonna get all her gaskets sealed up and that's final'd
+2021-05-16T09:33:01  <daftykins> !makeitsew
+2021-05-16T09:33:02  <ubnot2> daftykins: Error: "makeitsew" is not a valid command.
+2021-05-16T09:33:15  <daftykins> you have much to learn, ubnot2 
+2021-05-16T09:34:50  <darkhal0> indeed
+2021-05-16T09:35:05  <darkhal0> i just hope it's not the cylinder gaskets because then that's $$
+2021-05-16T09:49:49  <moomoo> stupid gaskets
+2021-05-16T09:56:13  <daftykins> moomoo: do you know of RMC on youtube? he accepted my donation offer for my little Psion 3c PDA :O
+2021-05-16T09:58:04  <moomoo> daftykins: no
+2021-05-16T09:58:13  <daftykins> aww :(
+2021-05-16T09:58:16  <moomoo> ah retro nonsense!
+2021-05-16T09:58:44  <moomoo> guy is deffo a hoarder
+2021-05-16T09:58:47  <daftykins> yeah, i more enjoy the repair and refurb than the specific systems though
+2021-05-16T09:59:08  <daftykins> heh, well he's turning it into an open space where eventually folk will be able to visit and tinker 
+2021-05-16T10:03:40  <darkhal0> can dogs eat olives/ 
+2021-05-16T10:03:46  <darkhal0> olives on a pizza
+2021-05-16T10:05:23  <darkhal0> Dogs can eat olives in moderation. They contain many vitamins and minerals important for human health, though dogs fed a complete and balanced diet don't need these additional nutrients. However, plain, unsalted olives can be a healthy snack for your pup. ... Olive pits may cause choking or obstructions in dogs.Jun 1, 2018
+2021-05-16T10:05:35  <darkhal0>  cool
+2021-05-16T10:07:06  <darkhal0> Guess i'll go do some moar unpacking (i dont wannnaaaaaaa 😫
+2021-05-16T10:09:21  <daftykins> i don't envy that task!
+2021-05-16T10:11:25  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 268 seconds)
+2021-05-16T10:15:08  <moomoo> daftykins: do you have a dog
+2021-05-16T10:15:11  <moomoo> uh
+2021-05-16T10:15:19  <moomoo> darkhal0: do you have a dog
+2021-05-16T10:21:08  <moomoo> because you can't just imply you have a dog and nit give me pix of your dog you fucking monster
+2021-05-16T10:21:16  <daftykins> xD
+2021-05-16T10:21:30  <daftykins> how have you missed them?
+2021-05-16T10:25:01  <darkhal0> moomoo https://usercontent.irccloud-cdn.com/file/SYtv6c4Y/00361161916416_n.jpg
+2021-05-16T10:32:55  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-16T10:48:34  <moomoo> darkhal0: what a cutie derp
+2021-05-16T10:52:32  <darkhal0> https://usercontent.irccloud-cdn.com/file/6Fe0LzGt/0307211444b.jpg
+2021-05-16T10:52:34  <darkhal0> happy derp
+2021-05-16T10:52:39  <daftykins> apparently my laptop backpack is the best spot today: https://dafty.rocks/nextcloud/s/iGLwkfZNx2WMYkG/preview
+2021-05-16T10:54:05  <moomoo> lols
+2021-05-16T10:54:47  <moomoo> daftykins: you should upgrade your kitty to this https://v.redd.it/lkhhp8jc4hz61
+2021-05-16T10:55:42  <daftykins> daym those ear tips
+2021-05-16T11:17:43  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 252 seconds)
+2021-05-16T11:25:28  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-16T11:43:45  <darkhal0> now the question is : can my subie handle a one hour drive to the dealership? i have roadside assist so i guess we can find out!!
+2021-05-16T11:43:57  <darkhal0> jk i need to make sure i dont burn the engine out 
+2021-05-16T12:39:26  <Anastasius> Ooof.
+2021-05-16T12:44:59  *** Corin <Corin!~noble@unaffiliated/corin> has joined ##cloud-city
+2021-05-16T13:04:17  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-16T14:00:19  <daftykins> <Hud> Abreu's got to go!
+2021-05-16T14:00:38  <daftykins> Royals 1 - 2
+2021-05-16T14:00:54  <daftykins> Time-Warp: sus - sus
+2021-05-16T14:02:06  <Anastasius> See I didn't watch yesterday and they won.
+2021-05-16T14:03:05  <daftykins> one of 'em anyhow :D
+2021-05-16T14:05:20  <Anastasius> Woulda been a rainout if it was down here.
+2021-05-16T14:34:09  <jeans> Anastasius: found the exhaust leak. https://i.imgur.com/ub7cI9e.jpg
+2021-05-16T14:34:31  <Anastasius> jeans: That'd do it. :D
+2021-05-16T14:34:53  <jeans> Anastasius: kind of a pain tbh: https://i.imgur.com/WIvVWbv.jpg
+2021-05-16T14:34:58  <Anastasius> Fortunately exhaust work can be pretty cheap.
+2021-05-16T14:35:19  <jeans> Yeah, especially when your friends can weld =D
+2021-05-16T14:35:32  <Anastasius> Truth.
+2021-05-16T14:36:15  <Anastasius> That's a skill I wish I'd managed to pick up along the way.
+2021-05-16T14:39:29  <Lando-SpacePimp> Anastasius, is Sliders any good?
+2021-05-16T14:39:43  <Anastasius> Lando-SpacePimp: Only up to a certain point.
+2021-05-16T14:40:59  <daftykins> neat premise that no doubt lost its' way, used to enjoy seeing some on TV as a kid
+2021-05-16T14:41:01  <Anastasius> I caught a bit of it on Comet awhile back, and anything past the first few seasons is pretty bleh.
+2021-05-16T14:43:29  <Anastasius> Slid downhill (see what I did there?) after they killed off Pavarotti.
+2021-05-16T14:44:43  <Anastasius> I think in the final season they even recast Jerry O'Connell or... something.
+2021-05-16T14:50:58  <daftykins> https://www.youtube.com/watch?v=11q-p_ReIJA
+2021-05-16T14:50:59  <ubnot2> YouTube: Jerry O'Connell Expelled His Kids From Homeschool - length: 02m08s - 17,074 views - 212 likes / 9 dislikes - by LIVEKellyandRyan on 2020-03-24
+2021-05-16T14:51:06  <daftykins> xD
+2021-05-16T14:52:00  <Anastasius> :D
+2021-05-16T14:56:02  <daftykins> <baseball stadium advert> Step up to *our* plate. - Hooters
+2021-05-16T14:56:26  <Anastasius> Ugh, what a ghastly excuse for a restaurant.
+2021-05-16T14:57:24  <Anastasius> I don't think they've changed their motif or menu since 1988.
+2021-05-16T14:57:57  <daftykins> heh everyone knows what they're about, i imagine
+2021-05-16T14:58:15  <Anastasius> Bad food, orange short shorts and boobs.
+2021-05-16T14:58:37  <kevinf311-lap> and really fucking expensive beer
+2021-05-16T14:58:49  <Anastasius> Not even good beer!
+2021-05-16T14:59:24  <kevinf311-lap> co-worker wanted to go there last year during our training
+2021-05-16T15:00:09  <Anastasius> It's been an extremely long time since I set foot in one.
+2021-05-16T15:01:09  <kevinf311-lap> we were in one location and then were going to be moving to another for the rest of the course and this was the last night we were in the first location 
+2021-05-16T15:01:24  <kevinf311-lap> i guess she just wanted shitty wings and known menu 
+2021-05-16T15:01:38  <daftykins> and boobs
+2021-05-16T15:01:45  <NoDroid> new bike from last summer. 😋 https://usercontent.irccloud-cdn.com/file/2nSnB7N9/irccloudcapture7763230619531837486.jpg
+2021-05-16T15:01:55  <kevinf311-lap> it was like 4 total boobs, not including her own
+2021-05-16T15:01:59  <NoDroid> Just pumped tires up
+2021-05-16T15:02:09  <kevinf311-lap> the hostess and the waitress were like the only people working 
+2021-05-16T15:02:19  <kevinf311-lap> kitchen staff was all guys
+2021-05-16T15:02:38  <daftykins> heh
+2021-05-16T15:02:42  <Anastasius> It's really terribad.
+2021-05-16T15:03:41  <kevinf311-lap> i had a failure at making something to eat earlier
+2021-05-16T15:03:44  <Anastasius> First time I went to one it was on one of my Denver roadtrips, they had an outdoor deck but it was screened off with plastic wrap so it was like a greenhouse in there.
+2021-05-16T15:03:51  <kevinf311-lap> oof
+2021-05-16T15:04:31  <Anastasius> Completely packed too for some reason.
+2021-05-16T15:04:39  <Time-Warp> daftykins == super sus
+2021-05-16T15:04:55  <daftykins> sideeyes.gif
+2021-05-16T15:05:11  <kevinf311-lap> i need to find a good wings place 
+2021-05-16T15:05:26  <Time-Warp> LOL
+2021-05-16T15:09:48  <Lando-SpacePimp> kevinf311-lap, Wing Stop
+2021-05-16T15:10:39  <Anastasius> That ended up being the most exhausting 3-4 day weekend ever.
+2021-05-16T15:11:09  <kevinf311-lap> cool, i'll check them out Lando-SpacePimp thanks
+2021-05-16T15:11:27  <Anastasius> 9 hour drive with a few stops, one way, and I ended up driving the entire thing because the two friends I was with were too stoned to do much of anything.
+2021-05-16T15:11:37  <kevinf311-lap> oof
+2021-05-16T15:12:24  <Anastasius> Spent an hour in a grocery store before even leaving town looking for roadtrip snacks. Came out with some polish sausage, sunflower seeds and a large jar of pickles. o_O
+2021-05-16T15:13:05  <kevinf311-lap> i need some more pickles 
+2021-05-16T15:13:08  <Anastasius> Got into Denver around 4am, ate at a Village Inn, went out to Red Rocks (which was probably entirely illegal.
+2021-05-16T15:13:11  * kevinf311-lap adds that to the grocer list
+2021-05-16T15:13:13  <Anastasius> )
+2021-05-16T15:13:53  <Anastasius> Completely like zero sleep for 3 days.
+2021-05-16T15:14:51  <Anastasius> Friday, Saturday, Sunday. Left Thursday night, drove back Sunday night.
+2021-05-16T15:15:39  <kevinf311-lap> glad you made it back! :D
+2021-05-16T15:16:01  <Anastasius> It was a chore because it started snowing when we left Denver as well.
+2021-05-16T15:16:06  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Remote host closed the connection)
+2021-05-16T15:17:01  <Anastasius> Got back home around 1 or 2 am Monday, had class in the morning. Fin.
+2021-05-16T15:17:57  <Lando-SpacePimp> kevinf311-lap, Wingstop
+2021-05-16T15:18:17  <Anastasius> Isn't that just Pizza Hut?
+2021-05-16T15:19:15  <Lando-SpacePimp> Anastasius, no
+2021-05-16T15:19:17  <Lando-SpacePimp> that's Wingstreet
+2021-05-16T15:19:30  <Anastasius> Ack.
+2021-05-16T15:20:06  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-16T15:30:37  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-16T15:30:54  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-16T15:31:13  <daftykins> oh damn this is a close call
+2021-05-16T15:32:56  <Anastasius> A loss?
+2021-05-16T15:33:34  <daftykins> yep but within a hair, 3-4
+2021-05-16T15:35:01  * Anastasius plays Taps
+2021-05-16T15:42:50  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Quit: You! What planet is this?!)
+2021-05-16T15:43:35  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-16T17:39:03  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Read error: Connection reset by peer)
+2021-05-16T18:01:41  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-16T18:16:39  *** Lando-HoloNet <Lando-HoloNet!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-16T18:17:22  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Read error: Connection reset by peer)
+2021-05-16T18:17:26  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Read error: Connection reset by peer)
+2021-05-16T18:17:57  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-16T18:23:06  *** Lando-HoloNet is now known as Lando-SpacePimp
+2021-05-16T18:37:50  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Remote host closed the connection)
+2021-05-16T18:39:21  *** m00se <m00se!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-16T19:26:48  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-16T19:27:12  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-16T20:16:21  *** NoCode <NoCode!~NoCode@136.144.35.169> has joined ##cloud-city
+2021-05-16T20:34:42  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 265 seconds)
+2021-05-16T21:13:50  <daftykins> g'night!
+2021-05-16T21:19:16  <milehigh-> p/
+2021-05-16T21:35:31  <Lando-SpacePimp> milehigh-, hnnnnnnnnnnnnnnnnnnnnnnnnnnnnngh
+2021-05-16T21:35:37  <Lando-SpacePimp> where's divemistress?
+2021-05-16T21:36:09  <milehigh-> in my pocket? idk
+2021-05-16T21:36:11  <milehigh-> i'm not her keeper
+2021-05-16T23:00:13  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Ping timeout: 260 seconds)
+2021-05-16T23:34:21  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-16T23:37:03  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-tihgsovaxqkiplfo> has quit IRC ()
+2021-05-16T23:38:49  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-sbcymycvgumirhcy> has joined ##cloud-city
+2021-05-17T01:00:06  *** NoCode <NoCode!~NoCode@136.144.35.116> has joined ##cloud-city
+2021-05-17T01:11:58  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has left ##cloud-city ("Leaving")
+2021-05-17T01:23:26  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 260 seconds)
+2021-05-17T01:36:26  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-sbcymycvgumirhcy> has quit IRC ()
+2021-05-17T01:36:56  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-udrpsmpxgbjyvkdt> has joined ##cloud-city
+2021-05-17T01:37:10  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-udrpsmpxgbjyvkdt> has quit IRC (Client Quit)
+2021-05-17T02:45:34  *** sqrt2 <sqrt2!~ben@unaffiliated/sqrt2> has quit IRC (Ping timeout: 252 seconds)
+2021-05-17T02:49:01  *** sqrt2 <sqrt2!~ben@unaffiliated/sqrt2> has joined ##cloud-city
+2021-05-17T04:03:07  *** sqrt2 <sqrt2!~ben@unaffiliated/sqrt2> has quit IRC (Ping timeout: 252 seconds)
+2021-05-17T04:04:46  *** sqrt2 <sqrt2!~ben@unaffiliated/sqrt2> has joined ##cloud-city
+2021-05-17T05:16:02  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-17T05:19:11  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-jduebknvzjkufwax> has joined ##cloud-city
+2021-05-17T05:20:42  *** NoDroid is now known as asdf905
+2021-05-17T05:26:37  *** asdf905 <asdf905!sid278256@gateway/web/irccloud.com/x-jduebknvzjkufwax> has quit IRC ()
+2021-05-17T06:52:53  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 265 seconds)
+2021-05-17T07:15:29  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-17T07:22:27  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-17T07:52:29  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-17T08:55:37  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-17T09:01:05  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has quit IRC (Quit: Bye!)
+2021-05-17T09:01:24  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has joined ##cloud-city
+2021-05-17T10:11:35  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Ping timeout: 246 seconds)
+2021-05-17T10:16:37  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-17T10:42:08  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Remote host closed the connection)
+2021-05-17T10:45:16  *** m00se <m00se!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-17T10:48:41  <moomoo> finally someone oneupping SpaceX https://pbs.twimg.com/media/E1mVBqLWYAA-8Vs?format=jpg&name=large
+2021-05-17T10:53:09  <daftykins> :O
+2021-05-17T10:58:11  <daftykins> moomoo: https://i.imgur.com/5rz2Chk.jpeg
+2021-05-17T10:58:53  <moomoo> :D
+2021-05-17T10:59:09  <MurkyBanana> 'MURICA
+2021-05-17T10:59:28  <MurkyBanana> fuck, I forgot to fill up this weekend
+2021-05-17T10:59:42  <moomoo> empty bag in box of wine, refill with gas, simple
+2021-05-17T10:59:49  <MurkyBanana> oh well, I've still got 3/4 of a tank and nowhere to go other than work so I'll be fine for a while
+2021-05-17T11:23:25  <m00se> I just put ten bucks in cause I ain't paying that for gas when I know it's gonna be $1 next week
+2021-05-17T11:23:32  <m00se> fuck them fucking fuckers
+2021-05-17T11:24:26  <daftykins> how high is it?
+2021-05-17T11:24:30  <m00se> $3
+2021-05-17T11:24:35  <daftykins> :o
+2021-05-17T11:24:35  <m00se> jerks
+2021-05-17T11:26:29  <MurkyBanana> $3.50 here (as of Saturday, no idea how much it is now but I'll find out soon)
+2021-05-17T12:03:20  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-17T12:41:05  <netdaemon> got dang you loche ness monstah
+2021-05-17T12:44:04  <hoglahoo> around 2.80 here
+2021-05-17T12:47:54  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 265 seconds)
+2021-05-17T12:55:03  *** Anastasius_ <Anastasius_!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-17T12:57:05  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Ping timeout: 265 seconds)
+2021-05-17T13:09:43  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-17T13:12:41  <jip> hi
+2021-05-17T13:12:52  <hoglahoo> hi
+2021-05-17T13:24:57  <Shadow404> 2.89 here
+2021-05-17T13:25:30  <Shadow404> bad time to drive my turbo
+2021-05-17T13:25:44  <jip> :)
+2021-05-17T13:25:48  <Shadow404> was as high as 3.29 at one point
+2021-05-17T13:26:24  <hoglahoo> gas buddy claims there are stations where its 2.50 but I'd probably have to drive half an hour to find them
+2021-05-17T13:32:44  <netdaemon> i always find it a little funny how some folk will drive a few miles out of the way to save a few cents on gas
+2021-05-17T13:33:45  <hoglahoo> now see what I do is drive the usual distance I would normally, then park the car and get out and walk with several 5-gallon cans.  They won't be scamming me, no sir
+2021-05-17T13:34:02  <netdaemon> hah
+2021-05-17T13:34:10  <hoglahoo> or take an uber, I've done that too
+2021-05-17T13:34:15  <hoglahoo> that way it's someone else paying for the gas
+2021-05-17T13:34:17  <netdaemon> just burning more gas to get cheaper gas makes 0 sense
+2021-05-17T13:34:56  <netdaemon> say you save 5 cents per gallon, that's only saving about 50c if you fill up 10 gallons if i mathed right
+2021-05-17T13:38:47  <jip> Some people around here drive to Belgium for fuel. Because the taxes on them here are higher.
+2021-05-17T13:40:58  <hoglahoo> irs allows something like 60 cents per mile on vehicle expenses: gas, wear and tear, etc.  So if I saved 50c, I hope it was less than half a mile each way out of my way, not including the extra time out of my life I spent chasing a few pennies and the extra risk of having a wreck for being on the road longer than I could have been
+2021-05-17T13:41:26  <hoglahoo> ^ this is hoglahoo brain on pandemic lol
+2021-05-17T13:44:22  <jip> hi hoglahoo's brain
+2021-05-17T13:47:45  <netdaemon> hoglahoo: pretty much, lol
+2021-05-17T13:48:08  <netdaemon> just pay the few extra cents per gallon and save that time
+2021-05-17T13:48:20  <jip> 63% of the fuel price here is tax
+2021-05-17T13:49:03  <netdaemon> i'm not sure what the ratio is here
+2021-05-17T13:50:13  <netdaemon> ~50 cents per gallon
+2021-05-17T13:51:51  <moomoo> FILL UP BAGS
+2021-05-17T13:52:09  <jip> one gallon is $8,68 here now
+2021-05-17T13:52:23  <netdaemon> here it's $3.09/gallon
+2021-05-17T13:53:19  <moomoo> 89 CENTS PER BAG
+2021-05-17T13:53:41  <netdaemon> so about 16% of it is taxes
+2021-05-17T13:55:14  <jip> This is why we made our country so small and used up our space more efficiently: Fluel prices
+2021-05-17T13:55:51  <netdaemon> yeah, and the US is spread out. unless you live in one of the population centers you pretty much need a car
+2021-05-17T13:57:46  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 240 seconds)
+2021-05-17T13:58:47  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-17T14:17:17  *** Anastasius_ <Anastasius_!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has quit IRC (Quit: You! What planet is this?!)
+2021-05-17T14:17:36  *** Anastasius <Anastasius!Anastasius@gateway/vpn/privateinternetaccess/anastasius> has joined ##cloud-city
+2021-05-17T14:18:01  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Ping timeout: 252 seconds)
+2021-05-17T14:43:13  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Remote host closed the connection)
+2021-05-17T14:43:39  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-17T14:53:25  * Anastasius covfefes
+2021-05-17T15:55:19  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 268 seconds)
+2021-05-17T16:14:02  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-17T16:26:18  <jeans> Anastasius: they're closing I70! =O
+2021-05-17T16:27:21  <Anastasius> wow, what for?
+2021-05-17T16:27:37  <jeans> Permanently closing the viaduct in Denver
+2021-05-17T16:28:09  <Anastasius> How's that gonna work?
+2021-05-17T16:28:41  <jeans> They are totally closing the highway Frida night, and when it reopens it'll be on the lowered section they just built
+2021-05-17T16:29:11  <Anastasius> Oh I didn't realize they were doing reconstruction.
+2021-05-17T16:29:22  <Anastasius> That area has always been a little dodgy.
+2021-05-17T16:29:36  <jeans> Yeah and the viaduct is literally falling apart
+2021-05-17T16:30:01  <Anastasius> INFRASTRUCTURE!
+2021-05-17T16:30:37  <jeans> 🍊⛔
+2021-05-17T16:30:55  <Anastasius> jeans: It sounds like my neighbor's kid got some sort of motorcycle, and it's backfiring and loud.
+2021-05-17T16:31:09  <jeans> Probs running super lean
+2021-05-17T16:31:40  <Anastasius> Something, I haven't gone out to look but he seems to be running it up and down the street.
+2021-05-17T16:31:55  <jeans> Inb4 he melts a valve
+2021-05-17T16:32:04  <Anastasius> :D
+2021-05-17T16:33:30  <jeans> Anastasius: I'm stiff and sore xþ
+2021-05-17T16:33:54  <Anastasius> What did you do now?
+2021-05-17T16:34:01  <jeans> The exhaust
+2021-05-17T16:34:07  <Anastasius> Oooh, right.
+2021-05-17T16:34:18  <Anastasius> breaking that shit free is always a pain in the ass.
+2021-05-17T16:34:31  <jeans> And getting it back up too
+2021-05-17T16:34:56  <Anastasius> Are those basically straight pipes?
+2021-05-17T16:35:10  <jeans> There's glasspacks in the middle
+2021-05-17T16:35:15  <Anastasius> Didn't seem to be much in the way of catalytics or mufflers.
+2021-05-17T16:35:18  <Anastasius> Ah right.
+2021-05-17T16:35:23  <jeans> https://i.imgur.com/WIvVWbv.jpg
+2021-05-17T16:35:34  <jeans> No cats tho (never had them)
+2021-05-17T16:35:53  <Anastasius> Huh, that's odd for 1976 isn't it?
+2021-05-17T16:36:02  <jeans> Nup
+2021-05-17T16:36:47  <Anastasius> Thought they started being required in the US around '73 or '74
+2021-05-17T16:36:58  <Anastasius> Maybe not for imports yet though.
+2021-05-17T16:37:05  <jeans> Iirc they weren't required until '94
+2021-05-17T16:37:23  <Anastasius> Pretty sure that's wrong. :D
+2021-05-17T16:37:23  <jeans> But it was increasingly hard to pass smog tests without them
+2021-05-17T16:43:54  <Anastasius> At any rate, people are stealing them left right and sideways around here lately.
+2021-05-17T16:53:03  <jeans> Anastasius: they were effectively "required" by the 1975 model year in order to meet emissions deadlines set out in 1970. And there are laws that prohibit removing a cat for any purpose other than to replace it with another one. However, I can't find any laws mandating just the presence of a converter until CA in 2009
+2021-05-17T16:53:26  <Anastasius> Hmmm.
+2021-05-17T16:53:39  <jeans> Realistically almost no cars could pass federal emissions regulations without them, so they were effectively universal 
+2021-05-17T16:54:03  <Anastasius> Yeah that makes sense I guess.
+2021-05-17T16:57:05  <jeans> And the EPA makes it illegal to remove any cat from any car for purposes other than replacement
+2021-05-17T16:57:35  <jeans> So if your car had one new, it is required to be present. If not, you don't need one
+2021-05-17T16:57:53  <jeans> My door assembly plaque states 'non-catalyst"
+2021-05-17T16:58:32  <Anastasius> That's interesting, I didn't know they were exempt for awhile.
+2021-05-17T16:58:48  <jeans> Everyone says they were required in 1975, but then how do I have a '76 without one?
+2021-05-17T16:59:28  <m00se> t.ly/WXG5
+2021-05-17T16:59:30  <Anastasius> There must have been some loopholes during the transition period.
+2021-05-17T17:00:58  <m00se> sry
+2021-05-17T17:01:00  <m00se> https://t.ly/mZc8
+2021-05-17T17:01:05  <m00se> ther
+2021-05-17T17:02:44  <jeans> Also illegal to sell used cats >_>
+2021-05-17T17:08:28  <jeans> Anastasius: clearly not a requirement, at least in 1976: https://i.imgur.com/QMLHKgZ.jpg
+2021-05-17T17:10:52  <Anastasius> m00se: o_O
+2021-05-17T17:15:20  <hoglahoo> dont they make next year's cars this year?  <jeans> Everyone says they were required in 1975, but then how do I have a '76 without one?
+2021-05-17T17:15:27  <Anastasius> jeans: I'm guessing imports got some leeway, but I'm pretty sure everything American made 1975+ was required to have them, plus other emission control stuff that was dodgy.
+2021-05-17T17:16:30  <jeans> hoglahoo: yes, but my car was made in 75 as a 76 model year, whereas everyone is saying that they were required in 74 for the 75 model year
+2021-05-17T17:18:10  <hoglahoo> oh, I see
+2021-05-17T17:18:34  <hoglahoo> In that case, I suspect there must have been some loopholes during the transition period. ;D
+2021-05-17T17:18:46  <Anastasius> :D
+2021-05-17T17:20:02  <Anastasius> I've seen some exhaust shops that are having offers to weld rebar around catalytic converters to make them next to impossible to steal quickly.
+2021-05-17T17:20:10  <Anastasius> So there's a million dollar idea.
+2021-05-17T17:20:18  <hoglahoo> not bad
+2021-05-17T17:23:40  <m00se> just build a garage around it!
+2021-05-17T17:23:44  <m00se> brb
+2021-05-17T17:45:45  <milehigh-> Someone come fix my suby ;_;
+2021-05-17T17:46:07  <Anastasius> milehigh-: Did you discover anything new there?
+2021-05-17T17:46:13  <milehigh-> The dealership is 45 miles so i think i need to tow it
+2021-05-17T17:46:22  <milehigh-> No i was so tired last night i forgot 
+2021-05-17T17:46:48  <milehigh-> I dont need to drive for a while at least.
+2021-05-17T17:47:17  <Anastasius> Still sucks feeling trapped with a semi-broken vehicle.
+2021-05-17T17:50:46  <milehigh-> Yeah, i can manage. 
+2021-05-17T17:51:14  <milehigh-> My dad tried to trade cars but its not good for him to take it home
+2021-05-17T17:51:48  <milehigh-> Im almost off work, i guess i can take a look in a bit
+2021-05-17T17:52:41  <Lando-SpacePimp> milehigh-, I heard someone was selling Hummers for only $50
+2021-05-17T17:53:55  <milehigh-> Wow what a ripoff
+2021-05-17T17:54:28  <milehigh-> If this baby is all fucked I might trade her for a truck or another suby
+2021-05-17T17:54:34  <Lando-SpacePimp> milehigh-, I also saw a motel that must be catering to people who like naps
+2021-05-17T17:54:40  <Lando-SpacePimp> They provide hourly rates
+2021-05-17T18:13:49  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has joined ##cloud-city
+2021-05-17T18:15:00  <NoCode> Why'd my name get furloughed?
+2021-05-17T18:15:05  <NoCode> That's weird
+2021-05-17T18:24:58  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-17T18:56:39  <Spec> Lando-SpacePimp: nice
+2021-05-17T19:23:16  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-17T19:24:50  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has joined ##cloud-city
+2021-05-17T19:30:18  <Time-Warp> jeans: 
+2021-05-17T19:30:46  <Time-Warp> milehigh-: have you ever wonderd how many pair of jeans jeans has
+2021-05-17T19:30:57  <Anastasius> All the jeans.
+2021-05-17T19:31:12  <Time-Warp> Anastasius: ahahahaha
+2021-05-17T19:33:06  <Time-Warp> Anastasius: so i need to ask you
+2021-05-17T19:33:34  <Time-Warp> who is better allice cooper or twisted sister
+2021-05-17T19:33:37  <milehigh-> Time-Warp: he is the jeans
+2021-05-17T19:33:44  <Time-Warp> milehigh-: 0_0
+2021-05-17T19:33:58  <Time-Warp> milehigh-: this entire time a pair of jeans has been talking to me
+2021-05-17T19:34:02  <Time-Warp> this is simply AMAZING
+2021-05-17T19:34:53  <Anastasius> Time-Warp: Alice Cooper, clearly.
+2021-05-17T19:35:11  <Time-Warp> LOL
+2021-05-17T19:36:52  *** Time-Warp is now known as the-sock
+2021-05-17T19:36:56  <the-sock> jeans: we meet again
+2021-05-17T19:37:17  * the-sock tosses self in Anastasius 's face
+2021-05-17T19:37:35  *** the-sock is now known as Time-Warp
+2021-05-17T19:37:39  <Time-Warp> wow did you all just see that shit
+2021-05-17T19:37:39  <Time-Warp> lol
+2021-05-17T19:38:06  * Anastasius throws the-sock back.
+2021-05-17T19:40:32  <Time-Warp> LOL
+2021-05-17T19:41:30  <Time-Warp> milehigh-: statisticly who are smarter. girls or boys
+2021-05-17T19:41:50  <Anastasius> Dogs.
+2021-05-17T19:41:58  <Time-Warp> no dought
+2021-05-17T19:42:02  <Anastasius> Us humans aren't too bright.
+2021-05-17T19:42:05  <Time-Warp> dogs are like mag genius 
+2021-05-17T19:42:10  <Time-Warp> mad genius == 
+2021-05-17T19:42:19  <milehigh-> Catsm
+2021-05-17T19:42:21  <milehigh-> Cats*
+2021-05-17T19:43:25  <Anastasius> Both species know how to get humans to do their bidding.
+2021-05-17T19:43:51  <Anastasius> Mostly by looking cute.
+2021-05-17T19:43:51  <Time-Warp> milehigh-: MEOWwwwwwwwwwwWWWWWWWWWWWWWWWwwwwwwwwwwwwwwwwwWWWWWWWWWwwwwwwwwwwwwwwwwwwwwwWWWWWWWwwwwwwwwwwWW
+2021-05-17T19:44:45  * milehigh- claws out Time-Warp 's eyes
+2021-05-17T19:45:41  <milehigh-> I want to be a cat in the next life. 
+2021-05-17T19:46:25  <Time-Warp> 0_0
+2021-05-17T19:46:28  <Time-Warp> where my eyes go
+2021-05-17T19:46:35  <Anastasius> The pug life seems pretty cool, too.
+2021-05-17T19:54:37  <Lando-SpacePimp> oh yes
+2021-05-17T19:54:43  <Lando-SpacePimp> barely being able to breathe
+2021-05-17T19:54:46  <Lando-SpacePimp> sounds like a blast
+2021-05-17T19:54:55  <Lando-SpacePimp> skin fold dermatitis
+2021-05-17T19:54:57  <Lando-SpacePimp> such fun
+2021-05-17T19:55:08  <Lando-SpacePimp> not to mention dozens of other malformations
+2021-05-17T20:49:32  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 265 seconds)
+2021-05-17T21:59:58  *** Time-Warp is now known as DUCKGOOSE
+2021-05-17T22:00:15  *** DUCKGOOSE is now known as duckgoose
+2021-05-17T22:00:35  *** duckgoose is now known as Time-Warp
+2021-05-17T22:02:40  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Read error: Connection reset by peer)
+2021-05-17T22:03:40  *** m00se <m00se!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-17T23:00:17  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Ping timeout: 265 seconds)
+2021-05-17T23:15:21  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-uvuvvrukgrcbruvf> has joined ##cloud-city
+2021-05-18T00:23:47  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-18T00:31:41  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 240 seconds)
+2021-05-18T03:17:58  *** tincan <tincan!~tincan3@75-4-35-79.lightspeed.frokca.sbcglobal.net> has quit IRC (Ping timeout: 268 seconds)
+2021-05-18T03:23:00  *** tincan <tincan!~tincan3@75-4-35-79.lightspeed.frokca.sbcglobal.net> has joined ##cloud-city
+2021-05-18T03:40:59  *** sqrt2 <sqrt2!~ben@unaffiliated/sqrt2> has quit IRC (Remote host closed the connection)
+2021-05-18T03:41:09  *** sqrt2 <sqrt2!~ben@unaffiliated/sqrt2> has joined ##cloud-city
+2021-05-18T03:59:41  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-18T04:53:02  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-18T05:51:07  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 265 seconds)
+2021-05-18T06:24:18  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-18T07:31:46  *** h00k <h00k!sid431420@gateway/web/irccloud.com/x-ajzoxfktqvcpnpvx> has quit IRC (Ping timeout: 260 seconds)
+2021-05-18T07:38:04  *** h00k <h00k!sid431420@gateway/web/irccloud.com/x-uxhtxnjdynnfxryt> has joined ##cloud-city
+2021-05-18T07:38:39  *** kitten <kitten!sid3691@defocus/regular/crazycatlady> has quit IRC (Ping timeout: 250 seconds)
+2021-05-18T07:41:53  *** kitten <kitten!sid3691@defocus/regular/crazycatlady> has joined ##cloud-city
+2021-05-18T07:53:29  *** sqrt2 <sqrt2!~ben@unaffiliated/sqrt2> has quit IRC (Remote host closed the connection)
+2021-05-18T07:53:40  *** sqrt2 <sqrt2!~ben@unaffiliated/sqrt2> has joined ##cloud-city
+2021-05-18T07:59:53  *** netdaemon3 <netdaemon3!~netdaemon@tuxhacker/netdaemon> has joined ##cloud-city
+2021-05-18T08:01:30  *** netdaemon <netdaemon!~netdaemon@tuxhacker/netdaemon> has quit IRC (Quit: Ping timeout (120 seconds))
+2021-05-18T08:01:31  *** netdaemon3 is now known as netdaemon
+2021-05-18T08:19:10  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-18T08:50:24  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-18T08:51:42  *** bazkie <bazkie!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 268 seconds)
+2021-05-18T08:59:49  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-18T09:31:16  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 265 seconds)
+2021-05-18T09:35:49  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-18T11:43:45  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has quit IRC (Ping timeout: 268 seconds)
+2021-05-18T11:47:42  *** Corin <Corin!~noble@unaffiliated/corin> has quit IRC (Quit: Quit)
+2021-05-18T12:08:52  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-18T12:30:25  *** m00se <m00se!~m00se@unaffiliated/m00se> has quit IRC (Remote host closed the connection)
+2021-05-18T12:57:03  <daftykins> pls2test: www.twitch.tv/daftpunkle
+2021-05-18T12:57:08  *** m00se <m00se!~m00se@unaffiliated/m00se> has joined ##cloud-city
+2021-05-18T12:57:10  <daftykins> it's a live Mischief cam!
+2021-05-18T13:00:47  *** sqrt2 <sqrt2!~ben@unaffiliated/sqrt2> has quit IRC (Ping timeout: 260 seconds)
+2021-05-18T13:00:53  *** sqrt2_ <sqrt2_!~ben@unaffiliated/sqrt2> has joined ##cloud-city
+2021-05-18T13:14:17  <hoglahoo> ooo
+2021-05-18T13:14:22  <hoglahoo> now you're talking
+2021-05-18T13:14:45  <hoglahoo> not very mischievous at the moment
+2021-05-18T13:15:53  <jip> click
+2021-05-18T13:18:40  <hoglahoo> I feel like I'm listening to a nature documentary
+2021-05-18T13:19:00  <jip> oh I had it automuted
+2021-05-18T13:19:08  <hoglahoo> you're missing out
+2021-05-18T13:24:38  <hoglahoo> short and sweet
+2021-05-18T13:24:52  <daftykins> :D
+2021-05-18T13:24:53  <jip> I was about to make an account
+2021-05-18T13:24:58  <daftykins> gotta leave my public wanting more
+2021-05-18T13:25:09  <daftykins> d'aww, sorry jip - carry on and i will fire up more later
+2021-05-18T13:25:16  <daftykins> or if you want i will leave it going
+2021-05-18T13:25:20  <daftykins> xD
+2021-05-18T13:25:32  <jip> I need that account anyway
+2021-05-18T13:25:49  <jip> daftykins: Do you use discord?
+2021-05-18T13:26:30  <daftykins> nah, not currently - i did dabble once but didn't keep it
+2021-05-18T13:26:34  <daftykins> there we go, stream back up
+2021-05-18T13:26:42  <jip> haha
+2021-05-18T13:28:56  <jip> I have to make up a username
+2021-05-18T13:29:38  <jip> even jip26 is taken
+2021-05-18T13:30:20  <jip> Maybe I will go for something completely different
+2021-05-18T13:30:23  <hoglahoo> the only time hoglahoo is taken is when I forgot I signed up there a long time ago
+2021-05-18T13:30:37  <daftykins> "this guy keeps following me around!"
+2021-05-18T13:30:41  <hoglahoo> xD
+2021-05-18T13:31:01  <jip> haha
+2021-05-18T13:34:18  *** bazkie_bumpercar <bazkie_bumpercar!~kvirc@82-72-125-93.cable.dynamic.v4.ziggo.nl> has joined ##cloud-city
+2021-05-18T13:42:49  <daftykins> jip: can i leave you on duty to let me know if the camera freezes? xD i must go cook
+2021-05-18T13:43:06  <jip> sure
+2021-05-18T13:43:11  <daftykins> i'll only be reachable on Signal mind you
+2021-05-18T13:44:37  <jip> ok
+2021-05-18T13:47:13  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-18T13:51:40  <daftykins> ok, disappearing to cook
+2021-05-18T13:51:49  <jip> :-)
+2021-05-18T14:39:15  <daftykins> om nom nom
+2021-05-18T15:23:12  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has joined ##cloud-city
+2021-05-18T15:25:53  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Client Quit)
+2021-05-18T16:29:01  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has joined ##cloud-city
+2021-05-18T16:38:31  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-18T16:41:12  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has joined ##cloud-city
+2021-05-18T17:28:52  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-18T17:29:18  *** Corin <Corin!~noble@unaffiliated/corin> has joined ##cloud-city
+2021-05-18T17:36:19  *** Time-Warp is now known as ferret
+2021-05-18T17:40:25  *** ferret is now known as Time-Warp
+2021-05-18T18:12:04  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-18T18:12:44  <Time-Warp> penis
+2021-05-18T18:14:25  <bazkie_bumpercar> hee hee
+2021-05-18T18:16:36  <daftykins> rood
+2021-05-18T19:04:06  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 240 seconds)
+2021-05-18T19:31:47  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-18T20:37:07  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has joined ##cloud-city
+2021-05-18T20:44:30  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-uvuvvrukgrcbruvf> has quit IRC ()
+2021-05-18T21:09:59  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-18T21:50:17  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has joined ##cloud-city
+2021-05-18T21:58:18  *** NoCode <NoCode!~NoCode@unaffiliated/nocode> has quit IRC (Quit: Leaving)
+2021-05-18T22:12:37  <jeans> Hi
+2021-05-18T22:31:41  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has quit IRC (Ping timeout: 240 seconds)
+2021-05-18T22:33:24  <Time-Warp> oh geeze daftykins 
+2021-05-18T22:33:33  <Time-Warp> dii got the penis key again
+2021-05-18T22:33:45  <Time-Warp> sup bazkie_bumpercar daftykins jeans 
+2021-05-18T22:34:20  <jeans> !sus
+2021-05-18T22:34:21  <ubnot2> Time-Warp always sus
+2021-05-18T22:34:40  <jeans> I'm making hot cocoa
+2021-05-18T22:35:35  <Time-Warp> s/Time-Warp/jeans/
+2021-05-18T22:35:41  <Time-Warp> ugh no s
+2021-05-18T22:35:43  <Time-Warp> lol
+2021-05-18T22:39:26  <Time-Warp> jeans: have you seen stargate?
+2021-05-18T22:40:14  <Time-Warp> so they can travel from earth to other planets right?
+2021-05-18T22:41:36  <jeans> Time-Warp: I've seen most of Stargate
+2021-05-18T22:41:49  <Time-Warp> just started watching 
+2021-05-18T22:41:58  <jeans> Nice
+2021-05-18T22:42:14  <jeans> !indeed
+2021-05-18T22:42:15  <ubnot2> https://media.tenor.com/images/3f0a031b0a6fc877baabe5ce700ff083/tenor.gif
+2021-05-18T22:43:29  <jeans> Time-Warp: ^
+2021-05-18T22:43:53  <Time-Warp> whats that guys name again
+2021-05-18T22:44:19  <jeans> Teal'c
+2021-05-18T22:44:46  <Time-Warp> SG-1 is the first series i hope. its where i started LOL
+2021-05-18T22:45:03  <Time-Warp> there was an option for Atlantis 
+2021-05-18T22:45:22  <jeans> Atlantis comes later
+2021-05-18T22:45:29  <jeans> You should watch the movie first tho
+2021-05-18T22:46:53  <Time-Warp> stargate movie :o didnt know there was a movie. looking now
+2021-05-18T22:47:34  <jeans> Yeah, from 1994
+2021-05-18T22:48:04  <jeans> With Kurt Russell as O'Neill and Jason Spader as Daniel Jackson
+2021-05-18T22:52:26  <Time-Warp> oh nice
+2021-05-18T22:52:33  <kevinf311-lap> O'Neil, one L; no sense of humor
+2021-05-18T22:52:51  <kevinf311-lap> trying to find the SG-1 clip where they make that reference 
+2021-05-18T22:52:58  <Time-Warp> kevinf311-lap: kind of reminds me of data from startrek
+2021-05-18T22:53:29  <jeans> Lol
+2021-05-18T22:53:37  <kevinf311-lap> "It's O'Neill with 2 "L"'s.  There's another Colonel O'Neil in the military with only 1 L.  He has no sense of humor at all." -SG-1
+2021-05-18T22:53:39  <jeans> I made hot cocoa
+2021-05-18T22:53:54  <jeans> kevinf311-lap++
+2021-05-18T22:53:59  <jeans> (ll?)
+2021-05-18T22:54:49  <Time-Warp> jeans: marshmallow included?
+2021-05-18T22:55:25  <jeans> Nup!
+2021-05-18T22:55:35  <jeans> Marshmallows are kinda gross
+2021-05-18T22:55:36  * Time-Warp tosses mellow at milehigh- 
+2021-05-18T22:56:09  <Time-Warp> i can see the cats clawing at the marshmallows LOL
+2021-05-18T22:56:20  <jeans> Lol Tru
+2021-05-18T22:57:26  <kevinf311-lap> ok; i can't find the clip
+2021-05-18T22:57:38  <Time-Warp> think of the cat got its claw stuck in the mellow and going into full panic mode
+2021-05-18T22:58:16  <jeans> Lol
+2021-05-18T22:58:28  <kevinf311-lap> but anyway, even though the characters are "the same" in Stargate the movie, it's "O'Neil" and in SG-1 it's "O'Neill" due to some not in-universe, legal blah blah whatever reason 
+2021-05-18T22:58:45  <jeans> Orly
+2021-05-18T22:58:58  <kevinf311-lap> and O'Neill has a line in one of the episodes where they he makes fun of that in a sorta 4th wall way
+2021-05-18T22:59:01  <kevinf311-lap> with the above quote
+2021-05-18T22:59:05  <jeans> Lol
+2021-05-18T22:59:25  <jeans> The self-awareness of SG1 is kinda amazing
+2021-05-18T22:59:29  <kevinf311-lap> really us
+2021-05-18T22:59:31  <kevinf311-lap> is*
+2021-05-18T22:59:54  <kevinf311-lap> like the Wormhole X-Treme episode :D
+2021-05-18T23:00:01  <jeans> Yuss
+2021-05-18T23:00:17  <kevinf311-lap> ok
+2021-05-18T23:00:19  <kevinf311-lap> i sleep
+2021-05-18T23:00:22  <kevinf311-lap> g/night folks
+2021-05-18T23:00:46  <jeans> Where they talk about the USAF Chief of Staff being unavailable because he's guest starring on "some sci-Fi show"
+2021-05-18T23:00:52  <jeans> Night kevinf311-lap 
+2021-05-18T23:00:57  <kevinf311-lap> lol, i am sitting slightly off from where i usually sit on the couch and it has just destroyed my typing 
+2021-05-18T23:01:08  <kevinf311-lap> haha, yeah
+2021-05-18T23:02:14  <jeans> Mmm hot chocolate
+2021-05-18T23:03:41  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Ping timeout: 240 seconds)
+2021-05-18T23:03:59  <jeans> He quit because of my hot cocoa
+2021-05-18T23:04:21  <milehigh-> perhaps he thought it was a milkshake
+2021-05-18T23:04:27  <milehigh-> and he's on his way to your yard
+2021-05-18T23:04:40  <jeans> But I don't have a yard! 
+2021-05-18T23:04:42  <jeans> D=
+2021-05-18T23:04:48  <jeans> Also hi milehigh- 
+2021-05-18T23:04:50  <milehigh-> joke's on him then
+2021-05-18T23:04:53  <milehigh-> o/
+2021-05-18T23:05:13  <milehigh-> my suby blew her head gasket jeans
+2021-05-18T23:05:14  <jeans> I ran my car without the exhaust installed!
+2021-05-18T23:05:16  <milehigh-> \o/
+2021-05-18T23:05:19  <jeans> D=
+2021-05-18T23:05:20  <milehigh-> lol nice work
+2021-05-18T23:05:26  <jeans> Oh no!
+2021-05-18T23:05:27  <milehigh-> she's at the shop
+2021-05-18T23:05:45  <jeans> =(
+2021-05-18T23:05:51  <milehigh-> i guess i can trade her in 
+2021-05-18T23:06:25  <jeans> Awww
+2021-05-18T23:06:39  <milehigh-> i was looking at a newer suby 
+2021-05-18T23:06:47  <milehigh-> netdaemon: do you have a crosstrek
+2021-05-18T23:06:58  <jeans> Slœ
+2021-05-18T23:08:57  <jeans> milehigh-: get a WRX!
+2021-05-18T23:09:10  <milehigh-> well that doesnt really fit the dog
+2021-05-18T23:09:15  <milehigh-> and clearance
+2021-05-18T23:09:17  <milehigh-> i need a little more 
+2021-05-18T23:09:23  <jeans> Get a WRX Hatchback!
+2021-05-18T23:09:23  <milehigh-> but i like them
+2021-05-18T23:09:27  <milehigh-> are they taller? 
+2021-05-18T23:09:39  <jeans> No but they have moar room
+2021-05-18T23:09:55  <milehigh-> i mean do they have a little more clearance under? 
+2021-05-18T23:10:00  <jeans> Also they sound more like a fart than my car without its exhaust
+2021-05-18T23:10:10  <milehigh-> lol
+2021-05-18T23:10:27  <jeans> Just lift it! =D
+2021-05-18T23:10:45  <milehigh-> sure let me have the time and money to do it
+2021-05-18T23:10:47  <milehigh-> NOT
+2021-05-18T23:10:52  <milehigh-> lol
+2021-05-18T23:11:12  <milehigh-> i need one that can climb my hill and has a little clearance
+2021-05-18T23:11:31  <milehigh-> i got rocks and shit 
+2021-05-18T23:11:57  <jeans> 💣
+2021-05-18T23:12:00  <milehigh-> also we bottomed out the moving van on my hill so i can have bottomouts
+2021-05-18T23:12:07  <milehigh-> lmaoooo
+2021-05-18T23:12:12  <milehigh-> IT GOT STUCK
+2021-05-18T23:12:18  <milehigh-> 26' truck 
+2021-05-18T23:12:30  <jeans> 💣
+2021-05-18T23:12:33  <jeans> I'm telling you
+2021-05-18T23:12:44  <milehigh-> can you not 
+2021-05-18T23:13:00  <milehigh-> no doing things to my house 
+2021-05-18T23:13:08  <jeans> No not your house
+2021-05-18T23:13:09  <milehigh->  >____>
+2021-05-18T23:13:13  <jeans> The driveway
+2021-05-18T23:13:24  <milehigh-> thats not how it would work
+2021-05-18T23:14:07  <jeans> You just need the correct 💣! (ᐛ)
+2021-05-18T23:14:16  <milehigh-> it would cost less money to just get an AWD car
+2021-05-18T23:15:09  <jeans> WRXs are AWD!
+2021-05-18T23:15:25  <milehigh-> Clearance.
+2021-05-18T23:15:34  <milehigh-> i liked the outback
+2021-05-18T23:15:57  <milehigh-> There's a few i was looking at. 
+2021-05-18T23:16:37  <milehigh-> if the WRX's weren't so close to the ground I would love to get one. 
+2021-05-18T23:16:48  <milehigh-> it will bottom out guaranteed. 
+2021-05-18T23:16:53  <jeans> Spedy
+2021-05-18T23:17:24  <milehigh-> the highest speed limit in my city is 40mph. Speedy is not a thing here.
+2021-05-18T23:18:19  <jeans> As if the speed limit is as fast as you can go. ;D
+2021-05-18T23:18:49  <milehigh-> Please keep trying to get me to buy a car you want instead of a car i need lol. >.>
+2021-05-18T23:19:20  <jeans> Tbf I don't want a WRX
+2021-05-18T23:19:31  <jeans> I don't vape enough
+2021-05-18T23:19:36  <jeans> >_>
+2021-05-18T23:20:28  <milehigh-> neither do i
+2021-05-18T23:20:47  * jeans sends milehigh- a big giant vape pen
+2021-05-18T23:21:04  <milehigh-> I wonder if another forester would be ok just a newer model or if they are all head gasket killers
+2021-05-18T23:21:28  <jeans> Tbh I'm surprised yours didn't like the head gasket
+2021-05-18T23:21:28  <milehigh-> vaping makes me sneeze.
+2021-05-18T23:21:48  <jeans> Also if you get a new head gasket, your current one is probably gonna be just fine
+2021-05-18T23:21:55  <milehigh-> eh 
+2021-05-18T23:22:07  <milehigh-> they have to do more than that
+2021-05-18T23:22:12  <milehigh-> its not worth fixing
+2021-05-18T23:22:24  <milehigh-> radiator and hoses need replacing as well. 
+2021-05-18T23:23:30  <jeans> That can't be too bad
+2021-05-18T23:23:35  <milehigh-> $3k
+2021-05-18T23:23:45  <jeans> For the radiator‽
+2021-05-18T23:23:51  <milehigh-> everything
+2021-05-18T23:24:02  <milehigh-> need to flush it all too
+2021-05-18T23:24:04  <milehigh-> etc
+2021-05-18T23:24:08  <jeans> Oh that's not bad
+2021-05-18T23:24:29  <milehigh-> i'm not paying that
+2021-05-18T23:25:02  <jeans> I mean, it sounds to me like the radiator is the real problem, which took the head gasket out with our
+2021-05-18T23:25:06  <jeans> *with you
+2021-05-18T23:25:35  <milehigh-> if i'm going to spend $3k i 'm going to trade it in for the $8k it's worth (offer confirmed), and put $3k down on a newer car.
+2021-05-18T23:25:46  <milehigh-> and then have a better car 
+2021-05-18T23:26:31  <milehigh-> without issues and itwill be in warranty, which this other caris not
+2021-05-18T23:27:30  <milehigh-> hoglahoo: gets me
+2021-05-18T23:27:46  <jeans> I suppose. I just replaced my head gasket myself lol
+2021-05-18T23:28:05  <milehigh-> you have to remove the engine for tthese ones
+2021-05-18T23:28:13  <jeans> Eww
+2021-05-18T23:28:13  * milehigh- doesn't have the time or tools 
+2021-05-18T23:28:35  <milehigh-> and now i've learned why subarus are a bitch to fix
+2021-05-18T23:28:38  <milehigh-> the older ones at elast.
+2021-05-18T23:28:46  <milehigh-> apparently they fixed this issue
+2021-05-18T23:28:53  <milehigh-> supposedly.
+2021-05-18T23:28:56  <jeans> Also worth pointing out that pretty much all Subarus have the same engine
+2021-05-18T23:29:07  <milehigh-> this one is a boxer engine
+2021-05-18T23:29:17  <jeans> Yup, like literally all is them
+2021-05-18T23:29:22  <jeans> *of them
+2021-05-18T23:30:10  <milehigh-> huh i just looked and didnt know that all of them are 
+2021-05-18T23:30:20  <milehigh-> thought only some of them were
+2021-05-18T23:30:37  <jeans> No, they all are
+2021-05-18T23:30:41  <milehigh-> https://www.iangrieve.co.uk/news/do-all-subaru-cars-have-a-boxer-engine/22243/newsdetail.aspx#:~:text=Yes%2C%20Subaru%20is%20the%20only,%2C%20Legacy%2C%20and%20BRZ%20models.
+2021-05-18T23:30:43  <ubnot2> Title: Do all Subaru Cars Have a Boxer Engine? | Ian Grieve | Falkirk | Ian Grieve (at www.iangrieve.co.uk)
+2021-05-18T23:30:50  <jeans> I don't even think they have the flat-6 anymore
+2021-05-18T23:30:59  <milehigh-> idk 
+2021-05-18T23:31:03  <jeans> Some of the really old ones are inline-4
+2021-05-18T23:31:07  <milehigh-> i really do like how they handle though 
+2021-05-18T23:31:12  <jeans> Or even inline-3s
+2021-05-18T23:31:15  <milehigh-> much better than my hondas
+2021-05-18T23:31:34  <milehigh-> not sure!
+2021-05-18T23:31:43  <milehigh-> they have been neat to learn about
+2021-05-18T23:33:06  <jeans> milehigh-: https://i.imgur.com/OGPychH.jpg
+2021-05-18T23:34:15  <milehigh-> yeah dont think those are a thing anymore 
+2021-05-19T00:17:19  <m00se> jesus h jeans is that your engine?
+2021-05-19T00:17:34  <jeans> Yes
+2021-05-19T00:17:43  <jeans> Not presently obvs
+2021-05-19T00:18:08  <m00se> I'm gonna go ahead and guess all that carbon and goo was from you starting it back when you first found it
+2021-05-19T00:18:22  <m00se> that's a textbook shitty engine top end right there
+2021-05-19T00:18:36  <jeans> There's no top end at all
+2021-05-19T00:19:01  <jeans> All of the black is the head gasket
+2021-05-19T00:19:42  <m00se> top of the pistons, top of the deck, exhaust etc
+2021-05-19T00:19:47  <m00se> mess
+2021-05-19T00:19:58  <jeans> You can't even see the deck. =þ
+2021-05-19T00:20:18  <m00se> you can see what there is of it around the god damned gasket foo
+2021-05-19T00:20:51  <m00se> you ever see what a "normal" heads off block looks like? It ain't that
+2021-05-19T00:20:55  <jeans> No, the gasket covers literally all of the deck in that shot
+2021-05-19T00:21:26  <m00se> not here to argue semantics
+2021-05-19T00:21:47  <jeans> Wow I didn't know you were there when I did my head gasket
+2021-05-19T00:22:16  <m00se> looks pretty cooked to me!
+2021-05-19T00:22:41  <m00se> did you have it machined or just new one
+2021-05-19T00:23:12  <jeans> It was pretty flat so I just cleaned the deck and put the head on
+2021-05-19T00:23:13  <m00se> new gasket I meant
+2021-05-19T00:23:21  <jeans> New gasket, yes
+2021-05-19T00:23:33  <m00se> course...I meant have the deck machined
+2021-05-19T00:23:38  <m00se> run any better now?
+2021-05-19T00:23:45  <jeans> Yep, runs great
+2021-05-19T00:24:22  <m00se> man that's some serious carbon tho lol
+2021-05-19T00:24:49  <jeans> Nah, it was barely built up. Didn't stick up above the gasket
+2021-05-19T00:25:10  <m00se> "wat's your compression ratio" "before or after I cleaned the pistons?"
+2021-05-19T00:25:58  <m00se> what did your spark plugs look like?
+2021-05-19T00:25:59  <jeans> Didn't clean them because I couldn't rotate the engine without dropping the timing chain, and I didn't want to scratch the cylinder walls
+2021-05-19T00:26:13  <jeans> They were fine, slightly white
+2021-05-19T00:26:40  <jeans> Given the leaky intake manifolds, that wasn't unexpected
+2021-05-19T00:27:39  <m00se> so what's the strategy just leave that carbon on there or are you going to use seafoam or the like?
+2021-05-19T00:28:16  <jeans> The carbon isn't hurting anything. I cleaned off the valves and the insides of the combustion chamber
+2021-05-19T00:29:33  <jeans> A lot more likely to knock some carbon down by the ring lands and cause way more damage that way
+2021-05-19T00:29:48  <m00se> she go through the oil does she?
+2021-05-19T00:29:59  <jeans> It did, yeah
+2021-05-19T00:30:15  <jeans> Leaky, hard valve stem seals
+2021-05-19T00:30:51  <m00se> by the looks of those cylinder walls...it might stop leaking down those valve stems and start bypassing the oil rings next
+2021-05-19T00:31:12  <m00se> or was already both
+2021-05-19T00:31:36  <m00se> saving for a total rebuild eventually?
+2021-05-19T00:32:09  <jeans> The cylinder walls (what I could see) looked great. Still had crosshatch from the original assembly and it makes excellent compression
+2021-05-19T00:32:21  <jeans> I'm not planning on a rebuild
+2021-05-19T00:32:50  <m00se> picture doesn't convey that
+2021-05-19T00:33:15  <jeans> Nope, it doesn't
+2021-05-19T00:33:31  <jeans> The picture is not a diagnostic tool. =þ
+2021-05-19T00:35:11  <m00se> telling enough
+2021-05-19T00:35:56  <jeans> It's a terrible cell phone photo with bad lighting. It tells nothing other than the head was off the car
+2021-05-19T00:36:52  <m00se> k
+2021-05-19T01:36:50  *** jip <jip!~jip@unaffiliated/jip-26/x-2652707> has quit IRC (Ping timeout: 260 seconds)
+2021-05-19T01:54:39  *** ChanServ <ChanServ!ChanServ@services.> has quit IRC (Killed (grumble (My fellow staff so-called 'friends' are about to hand over account data to a non-staff member. If you care about your data, drop your NickServ account NOW before that happens.)))
+2021-05-19T01:54:43  *** ChanServ <ChanServ!ChanServ@services.> has joined ##cloud-city
+2021-05-19T01:54:43  *** services. sets mode: +o ChanServ
+2021-05-19T02:01:40  *** jip <jip!~jip@lambermont.dyndns.org> has joined ##cloud-city
+2021-05-19T03:20:24  *** h00k <h00k!sid431420@gateway/web/irccloud.com/x-uxhtxnjdynnfxryt> has quit IRC (Ping timeout: 245 seconds)
+2021-05-19T03:23:19  *** kitten <kitten!sid3691@defocus/regular/crazycatlady> has quit IRC (Ping timeout: 245 seconds)
+2021-05-19T03:33:31  *** h00k <h00k!sid431420@gateway/web/irccloud.com/x-dceavjgvcdanywcx> has joined ##cloud-city
+2021-05-19T03:34:45  *** kitten <kitten!sid3691@defocus/regular/crazycatlady> has joined ##cloud-city
+2021-05-19T04:57:50  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-vmrbatmzeobyqpdy> has joined ##cloud-city
+2021-05-19T04:58:25  *** NoDroid <NoDroid!sid278256@gateway/web/irccloud.com/x-vmrbatmzeobyqpdy> has quit IRC (Client Quit)
+2021-05-19T05:03:08  <daftykins> 08:54 -!- ChanServ [ChanServ@services.] has quit [Killed (grumble (My fellow staff so-called 'friends' are about to hand over account data to a non-staff member. If you care about your data, drop your NickServ account NOW before that happens.))
+2021-05-19T05:03:12  <daftykins> o0
+2021-05-19T05:03:49  <bazkie_bumpercar> Oo
+2021-05-19T05:04:17  <bazkie_bumpercar> that's quite something..
+2021-05-19T05:04:47  <bazkie_bumpercar> is that like a freenode system wide thing?
+2021-05-19T05:11:18  <daftykins> the message?
+2021-05-19T05:48:04  *** Corin <Corin!~noble@unaffiliated/corin> has quit IRC (Ping timeout: 265 seconds)
+2021-05-19T05:57:04  *** Corin <Corin!~noble@unaffiliated/corin> has joined ##cloud-city
+2021-05-19T06:20:13  <bazkie_bumpercar> nah the principle. but it's already been answered i see :(
+2021-05-19T06:20:37  <daftykins> RIP freenode
+2021-05-19T06:21:47  <bazkie_bumpercar> https://gist.github.com/joepie91/df80d8d36cd9d1bde46ba018af497409
+2021-05-19T06:21:48  <bazkie_bumpercar> scary
+2021-05-19T06:25:50  <jip> I thought they were solving it and the drama had faded
+2021-05-19T06:26:01  <jip> I guess not
+2021-05-19T06:27:22  <netdaemon> milehigh-: yup, 2018 base model
+2021-05-19T07:14:38  <jeans> Wow, that actually seems real this time
+2021-05-19T07:15:22  <netdaemon> well, i'v registered my nick over on Libera.Chat
+2021-05-19T07:15:52  <m00se> yep
+2021-05-19T07:18:46  <jip> yeah, what's the 'delete server logs command'
+2021-05-19T07:18:59  <bazkie_bumpercar> netdaemon ^5
+2021-05-19T07:19:09  <netdaemon> ^5 bazkie_bumpercar 
+2021-05-19T07:19:17  <bazkie_bumpercar> lando should make a new cloud city there too
+2021-05-19T07:19:36  <bazkie_bumpercar> or cloud-suburbs lol
+2021-05-19T07:21:35  <daftykins> jip: lol, freenode staff solving anything
+2021-05-19T07:21:44  <m00se> /msg nickserv drop
+2021-05-19T07:21:59  <hoglahoo> lol
+2021-05-19T07:29:57  <jip> Is that new server working right?
+2021-05-19T07:30:38  <bazkie_bumpercar> somewhat
+2021-05-19T07:31:11  <netdaemon> i just got disconnected
+2021-05-19T07:31:19  <jip> oh I am in now
+2021-05-19T07:31:34  <bazkie_bumpercar> it's buckling under the loads i think
+2021-05-19T07:31:39  <daftykins> yeah i got a timeout just now
+2021-05-19T07:31:54  <daftykins> well, it's about to die - 288 seconds and counting
+2021-05-19T07:32:27  <jip> Yes I see
+2021-05-19T07:32:46  <jip> [15:30:24] [Users] Current users on scandium.libera.chat: 710, max 710.
+2021-05-19T07:32:48  <jip> [15:30:24] [Users] Current users on the network: 1874, max 2362
+2021-05-19T07:33:12  <netdaemon> i guess i registered just in time
+2021-05-19T07:33:36  <hoglahoo> never thought I'd see an irc network buckling under user load lmao
+2021-05-19T07:33:59  <daftykins> what do you mean, freenode has been a house of cards for years xD
+2021-05-19T07:34:42  <hoglahoo> har. you know what i mean you- you, whatever you are
+2021-05-19T07:35:40  <daftykins> i'm a guy that has to try and find a microSD card that catapulted out across the room from that camera last night xD
+2021-05-19T07:40:25  <netdaemon> give it 10 more years and Libera.Chat will be taken over ;)
+2021-05-19T07:45:32  <daftykins> sir that is showing a lot of confidence in libera's staff to last that long!
+2021-05-19T07:45:52  <jip> Libera crashed my irc client
+2021-05-19T07:46:00  <hoglahoo> wow
+2021-05-19T07:46:07  <daftykins> that's when you know you're using open source
+2021-05-19T07:46:15  <daftykins> :D
+2021-05-19T07:46:53  <daftykins> i'm in pain today gang, i'm having to buy a crApple product for a client... it makes me so sad
+2021-05-19T07:48:46  <netdaemon> it's a DDOS allegedly
+2021-05-19T07:49:12  <jip> is it?
+2021-05-19T07:49:38  <daftykins> LOL
+2021-05-19T07:49:46  <daftykins> yeah from freenode users connecting xD
+2021-05-19T07:49:49  <netdaemon> i guess there's a discussion in ##freenode-staff about it
+2021-05-19T07:50:17  <netdaemon> [08:44] <l0de> lts: I believe it is a distributed denial of service attack in china
+2021-05-19T07:50:46  <jip> but what do you believe?
+2021-05-19T07:51:04  <hoglahoo> is netdaemon a man of faith?
+2021-05-19T07:51:15  <netdaemon> i mean, it's entirely plausible. and no i'm not a man of faith
+2021-05-19T07:51:33  <netdaemon> there's a vested interest in preventing a mass exodus, lol
+2021-05-19T07:51:35  <jip> then where do the deamons come from?
+2021-05-19T07:51:45  <netdaemon> people with neckbeards 
+2021-05-19T07:51:58  <jip> :D
+2021-05-19T08:10:01  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-19T08:23:31  *** genii <genii!~quassel@ubuntu/member/genii> has joined ##cloud-city
+2021-05-19T08:45:47  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-19T08:46:41  <darkhal0> Makes sense 
+2021-05-19T10:07:15  *** sqrt2_ <sqrt2_!~ben@unaffiliated/sqrt2> has quit IRC (Quit: ZNC - http://znc.in)
+2021-05-19T10:34:57  *** Lando-SpacePimp <Lando-SpacePimp!~Lando@unaffiliated/lando-spacepimp> has joined ##cloud-city
+2021-05-19T10:36:10  <bazkie_bumpercar> Lando-SpacePimp: you heard about the whole freenode hostile takeover thing?
+2021-05-19T10:36:40  <Lando-SpacePimp> yeh, lol
+2021-05-19T10:38:56  *** genii_ <genii_!~quassel@ubuntu/member/genii> has joined ##cloud-city
+2021-05-19T10:48:39  *** genii_ <genii_!~quassel@ubuntu/member/genii> has quit IRC (Quit: sleepytimes)
+2021-05-19T10:54:54  <kitten> Are we moving
+2021-05-19T11:01:21  <daftykins> libera seems to have growing pains right now so i'd imagine the dust should settle before a decision is made
+2021-05-19T11:03:12  <netdaemon> it seems to have stabilized for the moment
+2021-05-19T11:16:14  <netdaemon> i'v not been d/c'd in a while at least
+2021-05-19T11:23:03  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-19T11:37:10  <darkhal0> Hmmmm
+2021-05-19T11:37:40  <genii> I am idling in my new channel there without incident for the last hour or so
+2021-05-19T11:38:39  <darkhal0> 08:51:14 <mst> lol, PIA wanted to make clear Lee isn't their fault: https://twitter.com/shadowcat_mst/status/1395043349342703619
+2021-05-19T11:41:15  <MurkyBanana> Is there a new ##cloud-city already?
+2021-05-19T11:41:35  <netdaemon> not that i'm aware of
+2021-05-19T11:43:20  <jeans> I'm currently squatting
+2021-05-19T11:46:37  <jeans> genii: Which channel?
+2021-05-19T11:46:45  <daftykins> not one of your concern
+2021-05-19T11:47:00  <jeans> I didn't ask you. =þ
+2021-05-19T11:47:33  <daftykins> that's cool, it was free!
+2021-05-19T12:05:25  <genii> jeans: I PM'd it
+2021-05-19T12:05:30  <jeans> ty!
+2021-05-19T12:24:46  <moomoo> why do people do bad things that result in me having to exert effort :(
+2021-05-19T12:25:01  <moomoo> truly I am the victim here
+2021-05-19T12:25:17  <hoglahoo> life is cruel, treat you unfairly
+2021-05-19T12:27:32  <daftykins> moomoo: so you can don your cape and save the day of course!
+2021-05-19T12:31:08  <jeans> moomoo: we are all victims in this case case
+2021-05-19T12:32:12  <hoglahoo> even so, a god there must be; mini-me, you complete me
+2021-05-19T12:32:15  <hoglahoo> *chorus*
+2021-05-19T12:43:09  <pteague> there is a gav in ##cloud-city on libera
+2021-05-19T12:44:13  <MurkyBanana> that our gav, or is it an imposter? :O
+2021-05-19T12:45:13  <hoglahoo> I hope you gav them the benefit of the doubt
+2021-05-19T12:45:20  * hoglahoo kills himself
+2021-05-19T12:52:04  <netdaemon> :|
+2021-05-19T12:52:35  <netdaemon> i prolly won't join the other side until whoever registers and takes ownership of it
+2021-05-19T12:52:46  <netdaemon> easier if it's just one person in there
+2021-05-19T13:00:46  <jeans> MurkyBanana: tis me
+2021-05-19T13:02:43  <moomoo> le gav
+2021-05-19T13:02:46  <jeans> netdaemon: It's fine if there's more than one op
+2021-05-19T13:02:59  <jeans> So if someone gets dc'd, the channel survives
+2021-05-19T13:08:29  <moomoo> Anastasius: you always wanted to be on a reality show right? https://www.space.com/discovery-channel-who-wants-to-be-an-astronaut-contest-series
+2021-05-19T13:21:11  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-19T13:21:30  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has joined ##cloud-city
+2021-05-19T13:40:42  *** Time-Warp <Time-Warp!Time-Warp@mirbsd/fan/time-warp> has quit IRC (Quit: We Are Legion)
+2021-05-19T13:46:05  *** snaked <snaked!~snaked@pdpc/supporter/active/snaked> has joined ##cloud-city
+2021-05-19T13:46:45  <snaked> Just wanted to extend a smile and some encouragement while the great network schism is being figured out.
+2021-05-19T13:47:52  <daftykins> hello sir
+2021-05-19T13:47:59  <daftykins> which way are you leaning right now, wait and see?
+2021-05-19T14:10:48  <h00k> well shit, RIP freenode, eh
+2021-05-19T14:11:18  <jeans> !indeed
+2021-05-19T14:11:19  <ubnot2> https://media.tenor.com/images/3f0a031b0a6fc877baabe5ce700ff083/tenor.gif
+2021-05-19T14:14:11  <daftykins> seems that way
+2021-05-19T14:15:22  <h00k> I just saw the resignation letter
+2021-05-19T14:15:29  <h00k> from Fuchs
+2021-05-19T14:19:03  *** snakedGT <snakedGT!~snaked@pdpc/supporter/active/snaked> has joined ##cloud-city
+2021-05-19T14:21:42  *** snaked <snaked!~snaked@pdpc/supporter/active/snaked> has quit IRC (Ping timeout: 260 seconds)
+2021-05-19T14:22:10  *** ectospasm <ectospasm!~ectospasm@unaffiliated/ectospasm> has quit IRC (Ping timeout: 260 seconds)
+2021-05-19T14:36:53  *** ectospasm <ectospasm!~ectospasm@unaffiliated/ectospasm> has joined ##cloud-city
+2021-05-19T15:13:51  <Anastasius> Good afternoon.
+2021-05-19T15:23:47  <daftykins> o/
+2021-05-19T15:24:00  <daftykins> the revolution is here!
